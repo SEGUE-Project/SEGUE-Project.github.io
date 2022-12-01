@@ -1,2 +1,11 @@
-# SEGUE-Project.github.io
-Website of the ERC project SEGUE
+# SEGUE Website
+
+ERC Project on modelling urban economic segregation
+
+The uneven concentration of economic resources in cities hampers the well-being and opportunities of poorer citizens and represents a threat to social cohesion. It is considered a major policy challenge by researchers and international institutions alike. Our aim with the **SEGUE project** is to identify and model the combination of major economic, geographic, sociological and demographical drivers of urban economic segregation in order to better understand its dynamics and to better assess possible remediatory policies. 
+The existing literature on urban economic segregation mainly explains it with sociological and intra-city factors (e.g. access to resources, social networks, role models) but also acknowledges that it depends on the evolution of economic inequality. The existing literature on economic inequality, by contrast, mainly focuses on factors operating at the national and individual levels (e.g. selective migration, assortativity, inheritance). The SEGUE project addresses the gap between these two bodies of literature by:
+- first **spatialising the national and individual explanations of economic inequality**. This means focusing on where people are, live in or move to, because those locations constrain who one can meet, whether romantically, professionally or simply as friends and acquaintances. 
+- second, **integrating multiple and multidisciplinary explanations into a simulation model of urban economic segregation**. This model uses CBS microdata for its initialisation and calibration, i.e. a unique source of exhaustive and longitudinal individual data from the Netherlands. 
+The project aim is to produce new insights about the interaction between drivers of economic inequality and segregation in cities and to provide a cost-effective tool to compare policy scenarios to reduce urban economic segregation at different scales of action (local policies, metropolitan or national ones). This should also open new perspectives to study other forms of inequality (gender, race, class) and facilitate the study of economic segregation in other national contexts (e.g. countries with less granular data).
+
+The GitHub project is aimed at curating and sharing resources between project members to ease collaboration, reproducibility and archiving. 
