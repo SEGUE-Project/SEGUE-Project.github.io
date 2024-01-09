@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data on SEGUE: Urban Economic Segregation</title>
+    <link>https://www.erc-segue.nl/data/</link>
+    <description>Recent content in Data on SEGUE: Urban Economic Segregation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +1000</lastBuildDate><atom:link href="https://www.erc-segue.nl/data/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Open government data on sociodemographics</title>
+      <link>https://www.erc-segue.nl/data/opendata_govsociodemo/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +1000</pubDate>
+      
+      <guid>https://www.erc-segue.nl/data/opendata_govsociodemo/</guid>
+      <description>Data on sociodemographics has always been an important source for researchers to understand the past, current, and future of the human population. It has become increasingly available and accessible worldwide.</description>
+    </item>
+    
+  </channel>
+</rss>

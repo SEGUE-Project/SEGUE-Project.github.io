@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ODISSEI on SEGUE: Urban Economic Segregation</title>
+    <link>https://www.erc-segue.nl/categories/odissei/</link>
+    <description>Recent content in ODISSEI on SEGUE: Urban Economic Segregation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 31 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.erc-segue.nl/categories/odissei/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ERC SEGUE Team at the ODISSEI Conference for Social Science in the Netherlands 2023</title>
+      <link>https://www.erc-segue.nl/blog/odissei23/</link>
+      <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.erc-segue.nl/blog/odissei23/</guid>
+      <description>SEGUE @ ODISSEI Conference for Social Science in the Netherlands 2023 This November, two of our members took part in the ODISSEI Conference for Social Science in the Netherlands 2023. This event aimed to unite a community of computational social scientists for discussions on topics such as data, methodologies, infrastructure, ethics, and theoretical aspects linked to the use of digital and computational techniques in social science research. ODISSEI, which serves as the research infrastructure for social science in the Netherlands, facilitates the connection of researchers with essential data, knowledge, and tools, enabling them to conduct innovative research and embrace the computational dimension in their social inquiries.</description>
+    </item>
+    
+  </channel>
+</rss>

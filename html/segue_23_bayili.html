@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bayi's report on ECTQG 2023</title>
+    <link href="../imgs/logo.svg" rel="icon" type="../image/svg"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="../online_slide_files/custom.css" />
+    <link rel="stylesheet" type="text/css" href="../online_slide_files/font-awesome.min.css">
+    <style type="text/css">
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+layout: true
+<div class="my-footer"><img src="../img/presentation/segue23/bayili/TUBK_Logo_URBA.svg" alt></div>
+
+---
+
+<!-- About Agent-Based Modelling: Layers -->
+
+.right[.image-90[![](../img/presentation/segue23/bayili/whatisABM_layers.svg)]]
+
+## Agent-Based Modelling 
+
+ABM is a bottom-up approach to modelling, simulating collective social phenomena from micro behaviours.
+
+### Entities
+
+In ABM, there are typically two layers of entities: the actor layer and the environment layer:
+
+- Actors
+
+  The human actors, <u>active agents</u>, can move around and interact with other entities. 
+
+- Environment
+
+  The environment, <u>passive agents</u>, is where the active agents reside.
+
+---
+
+<!-- About Agent-Based Modelling: Rules and interactions -->
+
+.right[.image-90[![](../img/presentation/segue23/bayili/whatisABM_envimpact.svg)]]
+
+## Agent-Based Modelling
+
+### Rules
+
+- The rules guides how the agents behave and interact with each other.
+
+- These rules are based on both dynamic and static attributes.
+
+### Interactions
+
+- Actors interact with each other and the environment, altering their states.
+
+- The interactions can vary over time and space.
+
+---
+
+<!-- About Agent-Based Modelling -->
+
+.right[.image-90[![](../img/presentation/segue23/bayili/whatisABM_outcomes.svg)]]
+
+## Agent-Based Modelling 
+
+### Emergent Phenomena
+
+- The actors' and environment's changing states indicate <u>social and environmental impacts</u> on the system.
+
+- The social and environmental impacts contribute to <u>the phenomena of the system</u> collectively.
+
+In form of **urban economic segregation**:
+
+- What are the key entities?
+
+- What are the key behaviour rules?
+
+---
+
+<!-- The overview of the ABM's theoretical framework -->
+
+# Overview
+
+## The target social phenomena
+
+**Urban economic segregation**
+
+> The uneven distribution of groups with **different economic status** across **residential neighbourhoods** of a city or an urban region (adapted from Van Ham et al. (2021)).
+
+Two fundamental questions:
+
+- Why do people choose to live where they live?
+
+- How the their economic status change over time?
+
+### Research question
+
+How can agent-based modelling enhance our understanding of the <u>dynamics driving urban economic segregation patterns</u> through the study of **individual residential and economic behaviours and interactions** in cities?
+
+---
+
+.right[![](../img/presentation/segue23/bayili/theoreticalframework.svg)
+.caption[.center[Theoretical framework from micro behaviours <br>to social phenomena through ABM]]]
+
+# Overview
+
+## Purpose
+
+- To create a versatile and adaptable ABM framework
+  
+- To model the intricate interplay of residential and economic behaviours
+
+- To provide simulated evidence for policymakers.
+
+---
+
+# Review
+
+.right[![](../img/presentation/segue23/bayili/slr_classificationclusters_rm.svg)
+.caption[.center[Collection of the related ABMs from the literature]]]
+
+Residential mobility is well-modelled due to its relevance in wide range of social phenomena.
+
+---
+
+# Review
+
+.right[![](../img/presentation/segue23/bayili/slr_classificationclusters_em.svg)
+.caption[.center[Collection of the related ABMs from the literature]]]
+
+Residential mobility is well-modelled due to its relevance in wide range of social phenomena.
+
+Economic mobility is less modelled, especially in spatial contexts.
+
+---
+
+# Review
+
+.right[![](../img/presentation/segue23/bayili/slr_classificationclusters_seg.svg)
+.caption[.center[Collection of the related ABMs from the literature]]]
+
+Residential mobility is well-modelled due to its relevance in wide range of social phenomena.
+
+Economic mobility is less modelled, especially in spatial contexts.
+
+ABMs of segregation primarily discussed location in segregation but not the complexity of residential choice or economic behaviour.
+
+---
+
+# Review
+
+.right[![](../img/presentation/segue23/bayili/slr_classificationclusters_tog.svg)
+.caption[.center[Collection of the related ABMs from the literature]]]
+
+Rather small number of ABMs captured the residential mobility and economic mobility simultaneously in the same segregation model.
+
+---
+
+# Review
+
+## The key actors
+
+- **Household**
+
+  Household is the most common actor modelled in related ABM.
+    
+- **Individual**
+
+  Individual, may called agent, is commonly modelled as the member of household. 
+  
+  Depending on the social phenomena and mechanism selected, the individual agent can be substituted by other actors.
+
+- **Other actors**
+  
+  The other actors, developer, urban sector or government, etc, are modelled as actor of interests in some ABMs which involves dynamic planning process. 
+  
+---
+
+.right[![](../img/presentation/segue23/bayili/components_lifecourse_80.svg)]
+
+## The key components
+
+**Life Course Component**
+
+The life course regulates the internal attributes of the agent, posing event and transition as a trigger of further responses on residential and economic mobility.
+
+---
+
+.right[![](../img/presentation/segue23/bayili/components_residentialmobility_80.svg)]
+
+## The key components
+
+**Residential Mobility Component**
+
+The household make their residential decision, the residence location change can impact the social network change and the economic states.
+
+---
+
+.right[![](../img/presentation/segue23/bayili/components_economicmobility_80.svg)]
+
+## The key components
+
+**Economic Mobility Component**
+
+The economic states change can impact the residential decision.
+
+---
+
+.right[![](../img/presentation/segue23/bayili/components_socialnetwork_80.svg)]
+
+## The key components
+
+**Social Network Component**
+
+Social networks serve as a foundational mechanism for capturing the complexities of social influence on behaviour.
+
+---
+
+.right[![](../img/presentation/segue23/bayili/components_macroregulation_80.svg)]
+
+## The key components
+
+**Macro Level Regulation**
+
+The macro level regulation was conceptualised  as the exogenous dynamics. 
+
+It can impact the economic states and the residential decision. 
+
+It imitates the role of policy interventions, and will be used to create the policy scenarios.
+
+---
+
+.right[![](../img/presentation/segue23/bayili/Combine_Process_granularFramework_50.svg)]
+
+# Review
+
+## Mechanisms and processes
+
+Green box: widely included
+
+Red box: not well modelled
+
+---
+
+.right[![](../img/presentation/segue23/bayili/Wellresearched_ResearchDesignStructure_50.svg)]
+
+# Review
+
+## The knowledge base
+
+The location-based opportunity is well captured in the ABMs of urban migration by uneven development or specific function-oriented location choice such as job-oriented or education-oriented. 
+
+---
+
+.right[![](../img/presentation/segue23/bayili/Gap_ResearchDesignStructure_50.svg)]
+
+# Review
+
+## Gap
+
+The tenure choice in residential mobility was widely researched theoretically, but rarely modelled together in ABM.
+
+---
+
+<!-- Prototype Model design -->
+
+## Prototype Model design
+
+### Case study
+
+.image-40[![](../img/presentation/segue23/bayili/nl_casestudy_locationdes.jpg)]
+.caption[.center[Figure. The case of Groningen and its population density.]]
+
+The [Functional Urban Areas (FUA)<sup>a</sup>](https://www.oecd.org/cfe/regionaldevelopment/functional-urban-areas.htm) of Groningen.
+
+The population of FUA of Groningen is <u>194, 340</u> in 2011 census, aggregated to around <u>80, 000</u> households.
+
+.note[*Notes: <sup>a</sup>: each of FUA consists of a densely inhabited city and of a surrounding area (commuting zone)*]
+
+---
+
+<!-- The life course component -->
+
+### The life course component
+
+.right[![](../img/presentation/segue23/bayili/example_life_course_001.svg)
+.caption[.center[Figure. An example of life trajectory, events and impact on household characteristics.]]]
+
+**Fundamental stages and essential micro life events**
+
+The trajectories of individuals and households are intertwined with each other through the life events.
+
+---
+
+<!-- The life course component -->
+
+### The life course component
+
+.right[![](../img/presentation/segue23/bayili/example_life_course_002.svg)
+.caption[.center[Figure. An example of life trajectory, events and impact on household characteristics.]]]
+
+**Fundamental stages and essential micro life events**
+
+Life events have the potential to trigger relocation desires, influence preferences for residence and economic states.
+
+---
+
+<!-- Residential mobility component -->
+
+.right[![](../img/presentation/segue23/bayili/preferencebasedutilitycalculation.svg)]
+
+### Residential mobility component
+
+#### The residential utility
+
+Residential Utility is defined by static attributes and dynamic preference varying over households.
+
+The factors of perceived utility of housing include the accessibility to services, the living unit size fits the household size and the social group by income and demographic background<sup>a</sup>.
+
+.note[*Notes: <sup>a</sup>: The preference level of residing with similar economic and demographic neighbours.*]
+
+---
+
+.right[![](../img/presentation/segue23/bayili/utility_comparison.svg)]
+
+#### The housing decision process
+
+<!-- preference, expectation, affordability, decision -->
+
+Rules:
+
+  The household will start the housing searching process if the utility of the current housing is lower than the expected utility.
+
+---
+
+.right[![](../img/presentation/segue23/bayili/bidding_simplified.svg)]
+
+#### The housing decision process
+
+<!-- preference, expectation, affordability, decision -->
+
+Rules:
+
+  Household with higher disposable income on housing has <u>the priority</u> to select the housing units.
+
+---
+
+.right[![](../img/presentation/segue23/bayili/finalisethelist.svg)]
+
+#### The housing decision process
+
+<!-- preference, expectation, affordability, decision -->
+
+Rules:
+
+  The household will <u>increase the searching radius</u> if there is no qualified housing unit within the current searching radius.
+
+---
+
+<!-- Entities introduction starts here -->
+
+### Entities (**change it more design related**)
+
+.right[![](../img/presentation/segue23/bayili/entities_individual_50.svg)]
+
+#### Individuals
+
+The individuals are the smallest active agent.
+
+--
+
+The dynamic choice attributes are updated based on the former experience.
+
+The dynamic state attributes are the properties or characteristics of agents that can change over time as the simulation progresses.
+
+---
+
+### Entities (**change it more design related**)
+
+.right[![](../img/presentation/segue23/bayili/entities_household_50.svg)]
+
+#### Household
+
+The individuals are the members of the household<sup>a</sup>, and the household is the minimum relocation decision making unit of the model.
+
+.note[*Notes: <sup>a</sup> The household covers the family and non-family household. The family household is the household with at least two members, and the non-family household is the household with one adult member.*]
+
+---
+
+### Entities (**change it more design related**)
+
+.right[![](../img/presentation/segue23/bayili/entities_livingunit_50.svg)
+]
+
+#### Living Unit
+
+The living units are the housing units in the grids of residence.
+
+---
+
+### Entities (**change it more design related**)
+
+.right[![](../img/presentation/segue23/bayili/entities_spatialunit_50.svg)
+]
+
+#### Spatial Unit
+
+The spatial units are the environment where the active agents live in. 
+
+In our case, they are the grids of the city.
+
+<!-- Entities introduction ends here -->
+
+---
+
+## Limitations of the prototype model to be developed
+
+### Decision rule
+
+Some of rules are largely simplified, for example, the behaviour in housing market.
+
+### The tolerance of the decision
+
+At circumstances of certain events, such as job change or divorce, the tolerance of the residential decision will be increased.
+
+### Absence of migration flow in and out of the system
+
+The long-distance migration flow in and out of the system is not included in the prototype model. 
+
+---
+
+## Overall challenges
+
+### Diversity of individuals
+
+  Without the diversity of individuals, the model might fail to capture endogenous dynamics of the main actors.
+
+### The balance between the complexity and the simplicity of the model
+
+  The more elements and the more detailed the behaviour and interaction rules, the larger the model needs to be and the longer the simulation will take.
+
+### The interpretability of the model
+
+  As the intercorrelation between different mechanisms, the impact of each mechanism is difficult to be isolated. 
+  
+  Sensitivity analysis and modelling them in building block will be the key to address this issue.
+
+---
+
+# Evaluation
+
+**What is the ideal ABM of urban economic segregation we are looking for?**
+
+- A general decision making mindset
+
+- A framework that simulated reliable micro behaviours
+
+- A flexible and extendable framework
+
+- A representative model of the target social phenomena with essential actors and mechanisms
+
+---
+
+**References**
+
+<div class="references">
+  [1] Ma, Y., Zhenjiang, S.H.E.N. and Kawakami, M., 2013. Agent-based simulation of residential promoting policy effects on downtown revitalization. Journal of Artificial Societies and Social Simulation, 16(2), p.2.
+  <br>
+  [2] Pagani, A., Ballestrazzi, F. and Binder, C.R., 2022, March. Shrinking Housing’s Size: Using Agent-Based Modelling to Explore Measures for a Reduction of Floor Area Per Capita. In Advances in Social Simulation: Proceedings of the 16th Social Simulation Conference, 20–24 September 2021 (pp. 275-287). Cham: Springer International Publishing.
+  <br>
+  [3] Clark, W.A. and Onaka, J.L., 1983. Life cycle and housing adjustment as explanations of residential mobility. Urban studies, 20(1), pp.47-57.
+  <br>
+  [4] Chatterjee, K., Sherwin, H. and Jain, J., 2013. Triggers for changes in cycling: the role of life events and modifications to the external environment. Journal of transport geography, 30, pp.183-193.
+  <br>
+  [5] Tabata, M. and Eshima, N., 2003. A self-referential agent-based model that consists of a large number of agents moving stochastically in a discrete bounded domain. Applied mathematics and computation, 143(2-3), pp.443-483.
+  <br>
+  [6] Cui, J., Pan, Q., Qian, Q., He, M. and Sun, Q., 2013. A multi-agent dynamic model based on different kinds of bequests. Physica A: Statistical Mechanics and its Applications, 392(6), pp.1393-1397.
+  <br>
+  [7] Haase, D., Lautenbach, S. and Seppelt, R., 2010. Modelling and simulating residential mobility in a shrinking city using an agent-based approach. Environmental Modelling & Software, 25(10), pp.1225-1240.
+  <br>
+  [8] Acheampong, R.A. and Asabere, S.B., 2021. Simulating the co-emergence of urban spatial structure and commute patterns in an African metropolis: A geospatial agent-based model. Habitat International, 110, p.102343.
+  <br>
+  [9] Jordan, R., Birkin, M. and Evans, A., 2011. Agent-based modelling of residential mobility, housing choice and regeneration. In Agent-based models of geographical systems (pp. 511-524). Dordrecht: Springer Netherlands.
+  <br>
+  [10] Gil-Quijano, J., 2008. Mechanisms of automated formation and evolution of social-groups: A multi-agent system to model the intra-urban mobilities of Bogotá city. In Social Simulation: Technologies, Advances and New Discoveries (pp. 151-168). IGI Global.
+  <br>
+  [11] Gonzalez-Estevez, J., Cosenza, M.G., López-Ruiz, R. and Sanchez, J.R., 2008. Pareto and Boltzmann–Gibbs behaviours in a deterministic multi-agent system. Physica A: Statistical Mechanics and its Applications, 387(18), pp.4637-4642.
+  <br>
+  [12] Pagani, A., Ballestrazzi, F., Massaro, E. and Binder, C.R., 2022. ReMoTe-S. Residential mobility of tenants in Switzerland: an agent-based model. Journal of Artificial Societies and Social Simulation, 25(2).
+  <br>
+  [13] Silveira, J.J., Espíndola, A.L. and Penna, T.J.P., 2006. Agent-based model to rural–urban migration analysis. Physica A: Statistical Mechanics and its Applications, 364, pp.445-456.
+  <br>
+  [14] Sun, S. and Manson, S.M., 2015. Simple agents, complex emergent city: agent-based modelling of intraurban migration. Computational approaches for urban environments, pp.123-147.
+  <br>
+  [15] Boulahbel-Bachari, S. and El Saadi, N., 2022. Understanding the Labor Market from the Bottom Up with an Agent-Based Model. In Proceedings of the Computational Methods in Systems and Software (pp. 754-769). Cham: Springer International Publishing.
+  <br>
+  [16] Taniguchi, T., Takahashi, Y. and Nishikawa, I., 2010, August. Multi-agent simulation on relationship between individuals' travel behaviour and residential choice behaviour. In Proceedings of SICE Annual Conference 2010 (pp. 1728-1733). IEEE.
+  <br>
+  [17] Fatmi, M.R. and Habib, M.A., 2017. Baseline synthesis and microsimulation of life-stage transitions within an agent-based integrated urban model. Procedia Computer Science, 109, pp.608-615.
+  <br>
+  [18] Haase, D., Lautenbach, S. and Seppelt, R., 2010. Modeling and simulating residential mobility in a shrinking city using an agent-based approach. Environmental Modelling & Software, 25(10), pp.1225-1240.
+  <br>
+  [19] Shen, Z., Ma, Y., Kawakami, M. and Nishino, T., 2012. Development of Agent-Based Model for Simulation on Residential Mobility Affected by Downtown Regeneration Policy. In Intelligent Interactive Multimedia: Systems and Services: Proceedings of the 5th International Conference on Intelligent Interactive Multimedia Systems and Services (IIMSS 2012) (pp. 201-211). Springer Berlin Heidelberg.
+  <br>
+  [20] Buchmann, C.M. and Schwarz, N., 2014. Residential mobility and model complexity-an agent-based modelling experiment on a small shrinking town in Eastern Germany.
+  <br>
+  [21] Rosenfield, A., Chingcuanco, F. and Miller, E.J., 2013. Agent-based housing market microsimulation for integrated land use, transportation, environment model system. Procedia Computer Science, 19, pp.841-846.
+</div>
+
+    </textarea>
+
+    <script src="../online_slide_files/remark-latest.min.js" type="text/javascript">
+    </script>
+    <script src="../online_slide_files/custom.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+      var slideshow = remark.create({ 
+        ratio: "16:9" , 
+        navigation: {
+          scroll: false
+        },
+      });
+    </script>
+  </body>
+</html>
