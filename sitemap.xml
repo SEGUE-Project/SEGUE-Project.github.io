@@ -11,6 +11,9 @@
     <loc>https://www.erc-segue.nl/categories/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://www.erc-segue.nl/tags/index/</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.erc-segue.nl/categories/inequality/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
   </url><url>
@@ -98,10 +101,10 @@
     <loc>https://www.erc-segue.nl/categories/theoretical-geography/</loc>
     <lastmod>2023-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.erc-segue.nl/categories/decision-making/</loc>
+    <loc>https://www.erc-segue.nl/tags/decision-making/</loc>
     <lastmod>2023-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.erc-segue.nl/tags/decision-making/</loc>
+    <loc>https://www.erc-segue.nl/categories/decision-making/</loc>
     <lastmod>2023-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.erc-segue.nl/categories/economic-segregation/</loc>
@@ -161,6 +164,9 @@
     <loc>https://www.erc-segue.nl/tags/inequality/</loc>
     <lastmod>2023-06-07T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://www.erc-segue.nl/map/</loc>
+    <lastmod>2023-06-07T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.erc-segue.nl/research/readinglist/</loc>
     <lastmod>2023-06-07T00:00:00+00:00</lastmod>
   </url><url>
@@ -177,9 +183,5 @@
     <lastmod>2023-01-01T00:00:00+10:00</lastmod>
   </url><url>
     <loc>https://www.erc-segue.nl/contact/</loc>
-  </url><url>
-    <loc>https://www.erc-segue.nl/tags/index/</loc>
-  </url><url>
-    <loc>https://www.erc-segue.nl/map/</loc>
   </url>
 </urlset>

@@ -4,7 +4,9 @@
     <title>Map on SEGUE: Urban Economic Segregation</title>
     <link>https://www.erc-segue.nl/map/</link>
     <description>Recent content in Map on SEGUE: Urban Economic Segregation</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://www.erc-segue.nl/map/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://www.erc-segue.nl/map/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -4,17 +4,16 @@
     <title>Economic on SEGUE: Urban Economic Segregation</title>
     <link>https://www.erc-segue.nl/tags/economic/</link>
     <description>Recent content in Economic on SEGUE: Urban Economic Segregation</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 12 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.erc-segue.nl/tags/economic/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.erc-segue.nl/tags/economic/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rich and poor: same city, different neighborhoods?</title>
       <link>https://www.erc-segue.nl/blog/spain_seg/</link>
       <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://www.erc-segue.nl/blog/spain_seg/</guid>
       <description>The “Ricos y pobres: ¿misma ciudad, distintos barrios?” project is an online tool that visually shows the evolution of urban economic segregation in more than 2000 municipalities of Spain. Using income data per census tract from the Spanish Statistical Agency, the extent of segregation among the richest and poorest groups of all cities of the country with available information were calculated for the 2015-2020 period. This tool allows the user to check the segregation levels of their municipality of choice through a set of maps, graphs and automatically-generated summary reports.</description>
     </item>
-    
   </channel>
 </rss>

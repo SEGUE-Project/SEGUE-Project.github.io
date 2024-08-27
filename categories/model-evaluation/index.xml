@@ -4,18 +4,16 @@
     <title>Model Evaluation on SEGUE: Urban Economic Segregation</title>
     <link>https://www.erc-segue.nl/categories/model-evaluation/</link>
     <description>Recent content in Model Evaluation on SEGUE: Urban Economic Segregation</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 31 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.erc-segue.nl/categories/model-evaluation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.erc-segue.nl/categories/model-evaluation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ERC SEGUE Team at the eX Modelo Workshop in the Paris, France 2023</title>
       <link>https://www.erc-segue.nl/blog/exmole23/</link>
       <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://www.erc-segue.nl/blog/exmole23/</guid>
-      <description>SEGUE @ ODISSEI Conference for Social Science in the Netherlands 2023 On November 13th and 14th, 2023, our team member, Bayi Li, participated in a teaching workshop on modelling and simulation. The workshop aimed to empower participants to explore and validate their agent-based models.
-The workshop, led by a team of researchers with recognised expertise in interdisciplinary practices, provided step-by-step advanced methods for model exploration over the first two days. Prior to this, theoretical courses were conducted to explain what Agent-Based Modelling (ABM) is, its purpose, and the characteristics of a good model.</description>
+      <description>SEGUE @ ODISSEI Conference for Social Science in the Netherlands 2023 On November 13th and 14th, 2023, our team member, Bayi Li, participated in a teaching workshop on modelling and simulation. The workshop aimed to empower participants to explore and validate their agent-based models.&#xA;The workshop, led by a team of researchers with recognised expertise in interdisciplinary practices, provided step-by-step advanced methods for model exploration over the first two days. Prior to this, theoretical courses were conducted to explain what Agent-Based Modelling (ABM) is, its purpose, and the characteristics of a good model.</description>
     </item>
-    
   </channel>
 </rss>

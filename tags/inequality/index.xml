@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>inequality on SEGUE: Urban Economic Segregation</title>
+    <title>Inequality on SEGUE: Urban Economic Segregation</title>
     <link>https://www.erc-segue.nl/tags/inequality/</link>
-    <description>Recent content in inequality on SEGUE: Urban Economic Segregation</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Inequality on SEGUE: Urban Economic Segregation</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.erc-segue.nl/tags/inequality/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.erc-segue.nl/tags/inequality/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Our Reading Lists</title>
       <link>https://www.erc-segue.nl/research/readinglist/</link>
       <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://www.erc-segue.nl/research/readinglist/</guid>
-      <description>Our reading list Here are the books on our desks waiting for some reading time:
-Manzo, G. (2022). Agent-based Models and Causal Inference. John Wiley &amp;amp; Sons. Molander, P. (2022). The Origins of Inequality: Mechanisms, Models, Policy. Springer Nature. Secchi, B. (2021). La ciudad de los ricos y la ciudad de los pobres. Los libros de la Catarata. Van Ham, M., Tammaru, T., Ubarevičienė, R., &amp;amp; Janssen, H. (2021). Urban socio-economic segregation and income inequality: A global perspective (p.</description>
+      <description>Our reading list Here are the books on our desks waiting for some reading time:&#xA;Manzo, G. (2022). Agent-based Models and Causal Inference. John Wiley &amp;amp; Sons. Molander, P. (2022). The Origins of Inequality: Mechanisms, Models, Policy. Springer Nature. Secchi, B. (2021). La ciudad de los ricos y la ciudad de los pobres. Los libros de la Catarata. Van Ham, M., Tammaru, T., Ubarevičienė, R., &amp;amp; Janssen, H. (2021). Urban socio-economic segregation and income inequality: A global perspective (p.</description>
     </item>
-    
   </channel>
 </rss>
