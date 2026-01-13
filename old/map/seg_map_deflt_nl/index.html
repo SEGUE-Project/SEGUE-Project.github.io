@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+<title>SEGUE: Urban Economic Segregation | Segregation map of Delft, the Netherlands</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="apple-touch-icon" sizes="180x180" href='/img/logo/logo_nb.svg'>
+<link rel="icon" type="image/svg" sizes="32x32" href='/img/logo/logo_nb.svg'>
+<link rel="icon" type="image/svg" sizes="16x16" href='/img/logo/logo_nb.svg'>
+<link rel="manifest" href='/site.webmanifest'>
+
+<link href='/css/fa6.min.css' rel="stylesheet" type="text/css">
+
+
+
+
+<link rel="stylesheet" href="/css/style.min.30fe29d4292e6ad3dae600c3456384ad1c258ff0452424d6c252ac2fe32dbff5.css" />
+
+
+<link href='/css/style.min.css' rel="stylesheet" type="text/css">
+<link rel="stylesheet" href='/css/custom.css'>
+<meta property="og:title" content="SEGUE: Urban Economic Segregation | Segregation map of Delft, the Netherlands" />
+
+
+
+
+<meta name="description" content="The socioeconomic segregation pattern in the Delft, the Netherlands">
+<meta property="og:title" content=" | " />
+<meta property="og:site_name" content="SEGUE: Urban Economic Segregation">
+<meta property="og:description" content="The socioeconomic segregation pattern in the Delft, the Netherlands">
+<meta property="og:url" content="https://www.erc-segue.nl/map/seg_map_deflt_nl/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@tech_chiba">
+
+<link rel="canonical" href="https://www.erc-segue.nl/map/seg_map_deflt_nl/">
+
+<meta name="twitter:description" content="The socioeconomic segregation pattern in the Delft, the Netherlands">
+<meta property="article:published_time" content="2023-06-07T00:00:00&#43;00:00">
+<meta property="article:updated_time" content="2023-06-07T00:00:00&#43;00:00">
+
+
+
+
+
+    
+<meta property="og:image" content="https://www.erc-segue.nl/img/blog/default.png">
+<meta property="og:image:url" content="https://www.erc-segue.nl/img/blog/default.png">
+    
+
+<meta name="twitter:title" content="Segregation map of Delft, the Netherlands">
+<link rel="preload" href='/css/sweetalert2.min.css' as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+
+</head>
+
+<body class="flex flex-col min-h-screen">
+  <main class="flex-grow"><header>
+    <div id="overlay">
+        <ul class="text-center list-none text-white text-3xl">
+            
+            <li class="p-2">
+                <a href="/research/">
+                    <span>Research</span>
+                </a>
+            </li>
+            
+            <li class="p-2">
+                <a href="/data/">
+                    <span>Data</span>
+                </a>
+            </li>
+            
+            <li class="p-2">
+                <a href="/blog/">
+                    <span>Blog</span>
+                </a>
+            </li>
+            
+            <li class="p-2">
+                <a href="/map/">
+                    <span>Map</span>
+                </a>
+            </li>
+            
+            <li class="p-2">
+                <a href="/about/">
+                    <span>About</span>
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+    <nav class="flex items-center justify-between flex-wrap bg-opacity-100 p-8">
+        <div class="flex items-center flex-shrink-0 text-xl text-grey-900 mr-6">
+            <a href="https://www.erc-segue.nl"><img alt="SEGUE Logo"
+                    class="h-14 mr-3" src="/img/logo/logo.svg"></a>
+        </div>
+        <div class="block lg:hidden">
+            <div id="hamburgerbtn" class="flex cursor-pointer items-center w-14 h-10 py-2 rounded mopen">
+                <span class="top"></span>
+                <span class="middle"></span>
+                <span class="bottom"></span>
+            </div>
+        </div>
+        <div class="hidden w-full block flex-grow lg:flex lg:items-center lg:w-auto" id="mobileMenu">
+            <div class="text-lg lg:flex-grow">
+            </div>
+            <div class="text-lg">
+                
+                <a href="/research/"
+                    class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                    Research
+                </a>
+                
+                <a href="/data/"
+                    class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                    Data
+                </a>
+                
+                <a href="/blog/"
+                    class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                    Blog
+                </a>
+                
+                <a href="/map/"
+                    class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                    Map
+                </a>
+                
+                <a href="/about/"
+                    class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                    About
+                </a>
+                
+            </div>
+        </div>
+    </nav>
+</header><div class="scroll-top rounded-full">
+      <span class="icon-keyboard_arrow_up text-2xl"></span>
+    </div>
+<div class="mx-auto my-10 max-w-6xl">
+    <div class="mx-3 col-span-3 lg:col-span-2 px-2">
+        <h1 class="title text-5xl font-bold mb-3">Segregation map of Delft, the Netherlands</h1>
+        <section class="mb-4 text-lg">
+            <h4 id="date" class="flex flex-row items-center"><span class="icon-access_time text-2xl mr-2"></span>
+                2023/06/07 </h4>
+            
+            <h4 class="flex flex-row items-center"><span class="icon-person text-2xl mr-2"></span>Bayi Li
+            </h4>
+            
+            
+        </section>
+        <div class="content prose md:prose-lg lg:prose-xl max-w-none py-1"><p>Analysis is a renowned researcher specializing in the field of socioeconomic segregation patterns. With a strong academic background in urban studies and a passion for understanding the dynamics of cities, Analysis has made significant contributions to the study of segregation in various urban contexts.</p>
+<p>Born and raised in the Netherlands, Analysis developed a deep interest in the socioeconomic disparities that exist within cities, particularly focusing on his hometown of Delft. After completing a Bachelor&rsquo;s degree in Urban Planning and a Master&rsquo;s degree in Sociology, with a specialization in urban inequality, Analysis embarked on a research journey to investigate the socioeconomic segregation patterns in Delft.</p>
+<p>Using a multidisciplinary approach, Analysis employed a combination of quantitative and qualitative research methods to unravel the complexities of segregation within the city. Through the collection and analysis of extensive data sets, including census data, housing statistics, and neighborhood surveys, Analysis sought to understand the underlying factors contributing to the formation and perpetuation of socioeconomic segregation in Delft.</p>
+<p>The research findings presented by Analysis shed light on various aspects of socioeconomic segregation in the city. By examining factors such as income inequality, educational opportunities, housing affordability, and access to public amenities, Analysis uncovered distinct patterns of segregation that were deeply intertwined with historical, social, and economic factors. These patterns highlighted the existence of concentrated pockets of poverty and affluence, as well as the spatial distribution of different social groups within the urban fabric of Delft.</p>
+<p>Beyond documenting the existing patterns, Analysis&rsquo;s research also aimed to inform policymakers, urban planners, and community stakeholders about the implications of socioeconomic segregation. The findings of the study provided valuable insights into the potential consequences of segregation on social cohesion, educational outcomes, and access to essential services. Through this research, Analysis advocated for evidence-based policies and interventions that could mitigate the negative impacts of segregation and foster more inclusive and equitable communities in Delft.</p>
+<p>Today, Analysis continues to actively engage in research and collaborative efforts aimed at understanding and addressing socioeconomic segregation in various urban contexts. Through a comprehensive and data-driven approach, Analysis strives to contribute to the development of strategies that promote social integration, equality, and justice within cities like Delft and beyond.</p>
+</div>
+        <b>Share this blog on social media!</b>
+        <div class="share m-2 grid grid-cols-2 lg:grid-cols-3 gap-2">
+            <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fwww.erc-segue.nl%2fmap%2fseg_map_deflt_nl%2f&text=Segregation%20map%20of%20Delft%2c%20the%20Netherlands" target="_blank"
+                title="Tweet" class="share-button twitter">
+                <div class="text-white text-center">
+                    <span class="icon-twitter text-lg mr-2"></span>Twitter
+                </div>
+            </a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.erc-segue.nl%2fmap%2fseg_map_deflt_nl%2f&t=Segregation%20map%20of%20Delft%2c%20the%20Netherlands" target="_blank"
+                title="Facebook" class="share-button facebook">
+                <div class="text-white text-center">
+                    <span class="icon-facebook text-lg mr-2"></span>Facebook
+                </div>
+            </a>
+            <a href="javascript:OnClickURL();" class="share-button url" title="Copy to Clipboard"
+                data-clipboard-text="Segregation map of Delft, the Netherlands https://www.erc-segue.nl/map/seg_map_deflt_nl/" id="url">
+                <div class="text-white text-center">
+                    <span class="icon-link text-lg mr-2"></span>Copy
+                </div>
+            </a>
+        </div>
+        <hr class="py-4">
+        <aside id="meta">
+            <div class="grid grid-cols-2">
+                <div class="col-span-1">
+                    
+                </div>
+                
+            </div>
+        </aside>
+    </div>
+</div>
+
+  </main><footer class="bg-tlgray-100">
+  
+  <script src='/js/clipboard.min.js'></script>
+  <script src='/js/highlight.min.js'></script>
+  <script src='/js/highlightjs-line-numbers.min.js'></script>
+  <script src='/js/sweetalert2.min.js'></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+    hljs.initLineNumbersOnLoad();
+    new ClipboardJS('.url');
+
+    function OnClickURL() {
+      Swal.fire({
+        icon: 'success',
+        title: 'Copied!',
+        text: 'Copied the URL and title.'
+      })
+    }
+  </script>
+  
+  <script>
+    function toggleNav() {
+      var hamburger = document.getElementById("hamburgerbtn");
+      var overlay = document.getElementById("overlay");
+      var body = document.body;
+
+      hamburger.addEventListener("click", function () {
+        overlay.classList.toggle("open");
+        hamburger.classList.toggle("is-open");
+        body.classList.toggle("scroll-lock");
+      });
+    }
+    toggleNav();
+
+    document.querySelector('.scroll-top').addEventListener('click', () => {
+      document.documentElement.scrollTop = 0;
+    });
+  </script>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet" />
+  
+  <div class="flex items-center justify-between flex-wrap bg-gray-800 p-8 text-white">
+    <div class="items-center text-xl text-grey-900 mr-6">
+      SEGUE
+    </div>
+    <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto" id="mobileMenu">
+      <div class="text-lg lg:flex-grow">
+      </div>
+      <div class="flex flex-row items-center text-lg">
+        
+        <a href="/" class="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-8">
+          
+          Home
+          
+        </a>
+        
+        <a href="https://github.com/SEGUE-Project" class="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-8">
+          
+          <i class='icon-github text-2xl'></i>
+          
+        </a>
+        
+        <a href="https://twitter.com/ERC_SEGUE" class="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-8">
+          
+          <i class='icon-twitter text-2xl'></i>
+          
+        </a>
+        
+      </div>
+    </div>
+  </div>
+  <div class="copy pl-8 py-5 bg-tlgray-700 text-white text-md">
+    &copy; SEGUE: Urban Economic Segregation 2023 All Rights Reserved.
+  </div>
+</footer>
+</body>
+
+</html>

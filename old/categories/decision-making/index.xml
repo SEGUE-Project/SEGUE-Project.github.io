@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Decision Making on SEGUE: Urban Economic Segregation</title>
+    <link>https://www.erc-segue.nl/categories/decision-making/</link>
+    <description>Recent content in Decision Making on SEGUE: Urban Economic Segregation</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 01 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.erc-segue.nl/categories/decision-making/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Utility-based Decision Making</title>
+      <link>https://www.erc-segue.nl/blog/uitilitydecisionmaking/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.erc-segue.nl/blog/uitilitydecisionmaking/</guid>
+      <description>Utility-based decision making is one of the most prominent theories applied in Agent-Based Modelling (ABM), especially in discrete choice modelling. In this webpost, Bayi Li describes two common extended utility theories.&#xA;Related terms Utility&#xA;Utility, in economics, refers to the satisfaction or benefit an individual receives from the consumption of goods or services (The Investopedia Team, 2022). Marshall (1890) broaden the definition that utility is the fulfilment or satisfaction of a desire, expanding the context to all possible motives to human action (Moscati, 2020).</description>
+    </item>
+  </channel>
+</rss>

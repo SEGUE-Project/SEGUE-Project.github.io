@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+<title>SEGUE: Urban Economic Segregation | Utility-based Decision Making</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="apple-touch-icon" sizes="180x180" href='/img/logo/logo_nb.svg'>
+<link rel="icon" type="image/svg" sizes="32x32" href='/img/logo/logo_nb.svg'>
+<link rel="icon" type="image/svg" sizes="16x16" href='/img/logo/logo_nb.svg'>
+<link rel="manifest" href='/site.webmanifest'>
+
+<link href='/css/fa6.min.css' rel="stylesheet" type="text/css">
+
+
+
+
+<link rel="stylesheet" href="/css/style.min.30fe29d4292e6ad3dae600c3456384ad1c258ff0452424d6c252ac2fe32dbff5.css" />
+
+
+<link href='/css/style.min.css' rel="stylesheet" type="text/css">
+<link rel="stylesheet" href='/css/custom.css'>
+<meta property="og:title" content="SEGUE: Urban Economic Segregation | Utility-based Decision Making" />
+
+
+
+
+<meta name="description" content="Utility-based decision making is one of the most prominent theories applied in Agent-Based Modelling (ABM).">
+<meta property="og:title" content=" | " />
+<meta property="og:site_name" content="SEGUE: Urban Economic Segregation">
+<meta property="og:description" content="Utility-based decision making is one of the most prominent theories applied in Agent-Based Modelling (ABM).">
+<meta property="og:url" content="https://www.erc-segue.nl/blog/uitilitydecisionmaking/">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@tech_chiba">
+
+<link rel="canonical" href="https://www.erc-segue.nl/blog/uitilitydecisionmaking/">
+
+<meta name="twitter:description" content="Utility-based decision making is one of the most prominent theories applied in Agent-Based Modelling (ABM).">
+<meta property="article:published_time" content="2023-09-01T00:00:00&#43;00:00">
+<meta property="article:updated_time" content="2023-09-01T00:00:00&#43;00:00">
+
+
+
+
+
+    
+<meta property="og:image" content="https://www.erc-segue.nl/img/blog/question.jpg">
+<meta property="og:image:url" content="https://www.erc-segue.nl/img/blog/question.jpg">
+    
+
+<meta name="twitter:title" content="Utility-based Decision Making">
+
+<script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [['\\(','\\)']],
+        displayMath: [['$$','$$'], ['\[','\]']],
+        processEscapes: true,
+        processEnvironments: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        TeX: { equationNumbers: { autoNumber: "AMS" },
+            extensions: ["AMSmath.js", "AMSsymbols.js"] }
+    }
+    });
+</script>
+<link rel="preload" href='/css/sweetalert2.min.css' as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+
+</head>
+
+<body class="flex flex-col min-h-screen">
+  <main class="flex-grow"><header>
+    <div id="overlay">
+        <ul class="text-center list-none text-white text-3xl">
+            
+            <li class="p-2">
+                <a href="/research/">
+                    <span>Research</span>
+                </a>
+            </li>
+            
+            <li class="p-2">
+                <a href="/data/">
+                    <span>Data</span>
+                </a>
+            </li>
+            
+            <li class="p-2">
+                <a href="/blog/">
+                    <span>Blog</span>
+                </a>
+            </li>
+            
+            <li class="p-2">
+                <a href="/map/">
+                    <span>Map</span>
+                </a>
+            </li>
+            
+            <li class="p-2">
+                <a href="/about/">
+                    <span>About</span>
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+    <nav class="flex items-center justify-between flex-wrap bg-opacity-100 p-8">
+        <div class="flex items-center flex-shrink-0 text-xl text-grey-900 mr-6">
+            <a href="https://www.erc-segue.nl/"><img alt="SEGUE Logo"
+                    class="h-14 mr-3" src="/img/logo/logo.svg"></a>
+        </div>
+        <div class="block lg:hidden">
+            <div id="hamburgerbtn" class="flex cursor-pointer items-center w-14 h-10 py-2 rounded mopen">
+                <span class="top"></span>
+                <span class="middle"></span>
+                <span class="bottom"></span>
+            </div>
+        </div>
+        <div class="hidden w-full block flex-grow lg:flex lg:items-center lg:w-auto" id="mobileMenu">
+            <div class="text-lg lg:flex-grow">
+            </div>
+            <div class="text-lg">
+                
+                <a href="/research/"
+                    class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                    Research
+                </a>
+                
+                <a href="/data/"
+                    class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                    Data
+                </a>
+                
+                <a href="/blog/"
+                    class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                    Blog
+                </a>
+                
+                <a href="/map/"
+                    class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                    Map
+                </a>
+                
+                <a href="/about/"
+                    class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                    About
+                </a>
+                
+            </div>
+        </div>
+    </nav>
+</header><div class="scroll-top rounded-full">
+      <span class="icon-keyboard_arrow_up text-2xl"></span>
+    </div>
+<div class="mx-auto my-10 max-w-6xl">
+    <div class="mx-3 col-span-3 lg:col-span-2 px-2">
+        <h1 class="title text-5xl font-bold mb-3">Utility-based Decision Making</h1>
+        <section class="mb-4 text-lg">
+            <h4 id="date" class="flex flex-row items-center"><span class="icon-access_time text-2xl mr-2"></span>
+                2023/09/01 </h4>
+            
+            <h4 class="flex flex-row items-center"><span class="icon-person text-2xl mr-2"></span>SEGUE Team
+            </h4>
+            
+            
+            <div id="categories" class="flex flex-row items-center">
+                <span class="icon-folder text-2xl mr-1"></span>
+                
+                <span
+                    class="inline-flex py-1 leading-4 content-center justify-center px-1 text-blue-600 hover:text-blue-800 duration-200"><a
+                        href='https://www.erc-segue.nl/categories/model-design'>model design, </a></span>
+                
+                <span
+                    class="inline-flex py-1 leading-4 content-center justify-center px-1 text-blue-600 hover:text-blue-800 duration-200"><a
+                        href='https://www.erc-segue.nl/categories/decision-making'>decision making, </a></span>
+                
+                <span
+                    class="inline-flex py-1 leading-4 content-center justify-center px-1 text-blue-600 hover:text-blue-800 duration-200"><a
+                        href='https://www.erc-segue.nl/categories/economic-segregation'>economic segregation, </a></span>
+                
+            </div>
+            
+        </section>
+        <div class="content prose md:prose-lg lg:prose-xl max-w-none py-1"><p>Utility-based decision making is one of the most prominent theories applied in Agent-Based Modelling (ABM), especially in discrete choice modelling. In this webpost, Bayi Li describes two common extended utility theories.</p>
+<h2 id="related-terms">Related terms</h2>
+<ul>
+<li>
+<p>Utility</p>
+<p>Utility, in economics, refers to the satisfaction or benefit an individual receives from the consumption of goods or services (The Investopedia Team, 2022). Marshall (1890) broaden the definition that utility is the fulfilment or satisfaction of a desire, expanding the context to all possible motives to human action (Moscati, 2020). The von Neumann-Morgenstern theory of utility constructed the reflection between individual utility function and choice under the assumption of rational act, where the decision maker seeks to maximise the expected value of utility (Jensen, 1967). Utility is not observed directly but can be inferred from attributes of the options and attributes of the decision maker (Kahneman et al., 1997).</p>
+</li>
+<li>
+<p>Decision utility and experienced utility</p>
+<p>Decision utility is the perceptions of utility before the decision maker experiences it, and the experienced utility refers to the actual experienced utility of a choice (Robson et al., 2011).</p>
+</li>
+<li>
+<p>Choice set</p>
+<p>The choice set, in the human decision making process, normally refers to a set of all of the possible alternatives available to the decision maker. The alternatives must be mutually exclusive and exhaustive, which means mixing two alternatives should be treated as another alternative choice seperately (Shocker, 1991). In practice, it is unrealistic to list all the possible alternatives, so commonly, the core choice set was defined to answer the main focus of the analysis (pp. 6 of <a href="https://raw.githack.com/woerman/ResEcon703/master/slides/week_03/week_03.pdf">Slides for Random Utility Model of ResEcon 703</a>).</p>
+</li>
+</ul>
+<p><em>Note: The selection of attributes to be included in the utility function usually relies on empirical suggestions in previous studies without strong conceptual justification. Sensitivity analysis, in the end, might be needed to validate the function forms and inputs.</em></p>
+<hr>
+<p>In this post, two dominant utility-based theories in ABMs will be introduced. The first theory is the Expected Utility Theory, which is widely applied in modeling agent behavior in risky environments (de Castro et al., 2016). The second theory is the Random Utility Theory, which plays a prominent role in modeling choices where uncertainty and heterogeneity of preferences are emphasized (Holm et al., 2016).</p>
+<h4 id="expected-utility-theory-eut">Expected Utility Theory (EUT)</h4>
+<p>The expected utility represents the expected gains of various options alongside their corresponding probabilities. The Expected Utility Theory (EUT) is grounded in the principle of maximizing expected utility. This theory pertains to decision-making under conditions of risk, where a decision maker selects the option that offers the highest expected utility. In this context, utility is calculated as the summation of the products of probability and utility across all possible outcomes (see equation 1). The decision made also hinges on factors such as the individual&rsquo;s level of risk aversion and the utility of others.</p>
+<p>Briggs (2019) provided a classical example of calculating the expected utility of bringing an umbrella involving states, acts, and outcomes to elucidate the concept of expected utility.</p>
+<p>Generally, the formula for expected utility can be expressed as:</p>
+<p>$$
+EU_{A} = \sum_{o \in O}{P_{A}(o)U(o)}
+$$</p>
+<p>Where:</p>
+<p>\(A\) refers to a specific act;
+\(EU_{A}\) is the expected utility of \(A\);
+\(O\) is the set of risky outcomes;
+\(P_{A}(o)\) is the probability of occurrence of risky outcome \(o\) conditional on \(A\);
+\(U_{o}\) is the utility associated with the risky outcome \(o\).</p>
+<p>The utility function \(U\) represents the individual&rsquo;s preferences and attitudes toward risk they are willing to undertake in the hope of attaining higher rewards (Norstad, 1999). Based on their utility functions, individuals can be categorized into three groups:</p>
+<ul>
+<li>
+<p>Risk-seeking</p>
+<p>Individuals in this group are willing to embrace greater risk with the aim of achieving potentially higher rewards.</p>
+</li>
+<li>
+<p>Risk-neutral</p>
+<p>Individuals in this group focus solely on the potential gains, irrespective of associated risks.</p>
+</li>
+<li>
+<p>Risk-averse</p>
+<p>Individuals in this group prefer a certain amount of return, rather than taking on uncertain outcomes.</p>
+</li>
+</ul>
+<p>Further investigation into the utility function has been a prevalent focus within the microeconomic field. This exploration encompasses the relationship between the expected utility of a decision and the utility of the expected value. It can also extend to concepts like Marginal Utility (MU). However, this post will not delve into the intricacies of these additional complexities.</p>
+<p>In the realm of social simulation, the utility function finds application in scenarios related to risk, such as natural disasters or economic crises. Classical examples include insurance decisions or the adoption of precautionary measures. In such cases, individuals weigh the expected utility gained from investing in precautionary measures against the option of retaining the investment for other purposes while facing the associated risk.</p>
+<p><em>Note: Another widely utilised model for decision-making under risk is prospect theory (de Castro et al., 2016). However, this theory is not discussed within the scope of this post.</em></p>
+<p><em>For the simulation of urban economic segregation, despite the advantageous application of EUT in investment behaviour, a potential mechanism in economic mobility, it falls more within the realm of microeconomics than our current scope. However, when considering the decision for long-distance migration in residential mobility modelling, influenced by the unfamiliarity of a new environment, it could be linked to the potential risk associated with relocation. Under this assumption, EUT could prove useful in predicting the flow of long-distance migration.&quot;</em></p>
+<h4 id="random-utility-theory-rut">Random Utility Theory (RUT)</h4>
+<p>Within a model of RUT, the degree of utility can be influenced by observable characteristics of alternatives, observable attributes of the decision maker, as well as unobservable attributes. Processes in random utility models align with utility maximization, even when decision makers don&rsquo;t maximize their utilities in the end (the gap between decision utility and experienced utility). RUT recognises that individual preferences and choices cannot be perfectly captured by the available data or the utility function itself. To address this inconsistency, a random error term is often introduced to represent the unobserved factors. It was also called stochastic modification of EUT in certain studies. Decision utility consists of two components: observed factors and unobserved factors (see equation 2).  Incorporating such a stochastic component allows for the utilization of uncertainty methods like the Monte Carlo method to reach the final decision (Liu, 2006). Due to its flexibility and inclusive nature, this theory holds a prominent place in the behavioural models of ABMs of life choices such as human migration (Klabunde and Willekens, 2016)</p>
+<p>The utility of each option can be expressed as:</p>
+<p>$$
+U_{nj} = V_{nj} + \varepsilon_{nj}
+$$</p>
+<p>Where:</p>
+<p>\(U_{nj}\) is the utility of each option;
+\(V_{nj}\) is the observed factors, also called representative utilities;
+\(\varepsilon_{nj}\) is the unobserved factors, which is everything that affects utility not included in \(V_{nj}\).</p>
+<p>$$
+V_{nj} = V(X_{nj}, S_{n})
+$$</p>
+<p>Where:</p>
+<p>\(X_{nj}\) is the vector of attributes of the option;
+\(S_{nj}\) is the vector of attributes of the decision maker</p>
+<p>As the existence of \(\varepsilon_{nj}\) in the function and in reality, decision cannot be made with certainty. Instead, they can be elucidated through probabilistic statements (though this aspect is not discussed here, further exploration can be found on pp. 15-18 of the <a href="https://raw.githack.com/woerman/ResEcon703/master/slides/week_03/week_03.pdf">Slides for Random Utility Model of ResEcon 703</a>).</p>
+<p><em>Note: In the ABM of urban economic segregation, RUT is well-suited to account for unobserved and omitted attributes that fall outside the scope of main research focus in the housing decision process. Further integration with bounded rationality can help describe the constraints imposed by real-world limitations, which will be discussed separately.</em></p>
+<p><em>EUT and RUT can sometimes become intertwined, yet they do not conflict with each other, especially in their application within ABMs incorporating complexity in the conceptual framework. These theories coexist to address both the unobserved factors and risk of potential outcomes in decision making process</em></p>
+<p><em>EUT and RUT are fundamental concepts borrowed from economics. They provide insights into how individuals weigh various attributes when making decisions. Understanding these theories offers a solid theoretical foundation for developing a comprehensive model that accurately represents individual behavior in the context of housing and economic transitions, as well as the collective outcomes of urban economic segregation.</em></p>
+<h2 id="references">References</h2>
+<p>Briggs, R.A. (2019) <em>Normative theories of rational choice: Expected utility</em>, <em>Stanford Encyclopedia of Philosophy</em>. Available at: <a href="https://plato.stanford.edu/entries/rationality-normative-utility/">https://plato.stanford.edu/entries/rationality-normative-utility/</a> [Accessed: 28 August 2023].</p>
+<p>de Castro, P.A.L., Barreto Teodoro, A.R., de Castro, L.I., Parsons, S., 2016. Expected utility or prospect theory: Which better fits agent-based modeling of markets? Journal of Computational Science 17, 97–102. <a href="https://doi.org/10.1016/j.jocs.2016.10.002">https://doi.org/10.1016/j.jocs.2016.10.002</a></p>
+<p>Groeneveld, J., Müller, B., Buchmann, C.M., Dressler, G., Guo, C., Hase, N., Hoffmann, F., John, F., Klassert, C., Lauf, T., Liebelt, V., Nolzen, H., Pannicke, N., Schulze, J., Weise, H., Schwarz, N. (2017). Theoretical foundations of human decision-making in agent-based land use models – A review. <em>Environmental Modelling &amp; Software</em>, 87, 39–48. <a href="https://doi.org/10.1016/j.envsoft.2016.10.008">https://doi.org/10.1016/j.envsoft.2016.10.008</a></p>
+<p>Holm, S., Lemm, R., Thees, O., Hilty, L.M., 2016. Enhancing Agent-Based Models with Discrete Choice Experiments. JASSS 19, 3. <a href="https://doi.org/10.18564/jasss.3121">https://doi.org/10.18564/jasss.3121</a></p>
+<p>Kahneman, D., Wakker, P.P., Sarin, R., 1997. Back to Bentham? Explorations of Experienced Utility. The Quarterly Journal of Economics 112, 375–405.</p>
+<p>Klabunde, A., Willekens, F. (2016). Decision-Making in Agent-Based Models of Migration: State of the Art and Challenges. <em>Eur J Population</em>, 32, 73–97. <a href="https://doi.org/10.1007/s10680-015-9362-0">https://doi.org/10.1007/s10680-015-9362-0</a></p>
+<p>Liu, X., Li, X., Yeh, A.G.-O. (2006). Multi-agent systems for simulating spatial decision behaviors and land-use dynamics. <em>Sci. China Ser. D-Earth Sci.</em>, 49 (11), 1184-1194.</p>
+<p>Marshall, A., 1890. <em>Principles of economics</em>. Available at: <a href="https://www.marxists.org/reference/subject/economics/marshall/bk3ch03.htm">https://www.marxists.org/reference/subject/economics/marshall/bk3ch03.htm</a></p>
+<p>Moscati, Ivan, History of Utility Theory (2020). BAFFI CAREFIN Centre Research Paper No. 2020-129, Available at SSRN: <a href="https://ssrn.com/abstract=3530949">https://ssrn.com/abstract=3530949</a></p>
+<p>Norstad, J., 1999. An introduction to utility theory. <em>Unpublished manuscript at <a href="http://seshadri.us/docs/norstad_utility.pdf">http://seshadri.us/docs/norstad_utility.pdf</a></em>.</p>
+<p>Robson, A. and Samuelson, L., 2011. The evolution of decision and experienced utilities. <em>Theoretical Economics</em>, <em>6</em>(3), pp.311-339.</p>
+<p>Sheikh, N. (2013). Chapter 1 - Defining Analytics, in: Sheikh, N. (Ed.), <em>Implementing Analytics, MK Series on Business Intelligence</em>. Morgan Kaufmann, Boston, pp. 3–20. <a href="https://doi.org/10.1016/B978-0-12-401696-5.00001-3">https://doi.org/10.1016/B978-0-12-401696-5.00001-3</a></p>
+<p>Shocker, A.D., Ben-Akiva, M., Boccara, B. and Nedungadi, P., 1991. Consideration set influences on consumer decision-making and choice: Issues, models, and suggestions. <em>Marketing letters</em>, <em>2</em>, pp.181-197.</p>
+<p>The Investopedia Team. (2022) <em>Utility in economics explained: Types and measurement</em>, <em>Investopedia</em>. Available at: <a href="https://www.investopedia.com/terms/u/utility.asp">https://www.investopedia.com/terms/u/utility.asp</a>. (Accessed: 29 August 2023).</p>
+<p>Wierzbicki, A.P. (1982). A mathematical basis for satisficing decision making. <em>Mathematical Modelling</em>, Special IIASA Issue 3, 391–405. <a href="https://doi.org/10.1016/0270-0255(82)90038-0">https://doi.org/10.1016/0270-0255(82)90038-0</a></p>
+<p>The Decision Lab. (Online). <em>Decision Utility - The Decision Lab</em>. Available at: <a href="https://thedecisionlab.com/reference-guide/psychology/decision-utility">https://thedecisionlab.com/reference-guide/psychology/decision-utility</a> [Accessed 20 Aug. 2023].</p>
+<p>Lumen Learning. (Online). <em>Rational Decision Making vs. Other Types of Decision Making | Principles of Management.</em> Available at: <a href="https://courses.lumenlearning.com/suny-principlesmanagement/chapter/rational-decision-making-vs-other-types-of-decision-making/">https://courses.lumenlearning.com/suny-principlesmanagement/chapter/rational-decision-making-vs-other-types-of-decision-making/</a> [Accessed 20 Aug. 2023].</p>
+</div>
+        <b>Share this blog on social media!</b>
+        <div class="share m-2 grid grid-cols-2 lg:grid-cols-3 gap-2">
+            <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fwww.erc-segue.nl%2fblog%2fuitilitydecisionmaking%2f&text=Utility-based%20Decision%20Making" target="_blank"
+                title="Tweet" class="share-button twitter">
+                <div class="text-white text-center">
+                    <span class="icon-twitter text-lg mr-2"></span>Twitter
+                </div>
+            </a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.erc-segue.nl%2fblog%2fuitilitydecisionmaking%2f&t=Utility-based%20Decision%20Making" target="_blank"
+                title="Facebook" class="share-button facebook">
+                <div class="text-white text-center">
+                    <span class="icon-facebook text-lg mr-2"></span>Facebook
+                </div>
+            </a>
+            <a href="javascript:OnClickURL();" class="share-button url" title="Copy to Clipboard"
+                data-clipboard-text="Utility-based Decision Making https://www.erc-segue.nl/blog/uitilitydecisionmaking/" id="url">
+                <div class="text-white text-center">
+                    <span class="icon-link text-lg mr-2"></span>Copy
+                </div>
+            </a>
+        </div>
+        <hr class="py-4">
+        <aside id="meta">
+            <div class="grid grid-cols-2">
+                <div class="col-span-1">
+                    
+                    <a class="previous lg:text-2xl" href="https://www.erc-segue.nl/blog/synthetischedata/">
+                        <div
+                            class="transition-colors duration-300 border border-gray-600 hover:border-black h-auto m-3 text-center py-3 lg:py-1">
+                            <span class="icon-keyboard_arrow_left"></span> Reporting on the event dedicated to synthetic data at CBS
+                        </div>
+                    </a>
+                    
+                </div>
+                
+                <a class="next lg:text-2xl" href="https://www.erc-segue.nl/blog/postdoc_jd/">
+                    <div
+                        class="transition-colors duration-300 col-span-1 border border-gray-600 hover:border-black h-auto m-3 text-center py-3 lg:py-1">
+                        Postdoctoral position on policy evaluation and modelling <span class="icon-keyboard_arrow_right"></span>
+                    </div>
+                </a>
+                
+            </div>
+        </aside>
+    </div>
+</div>
+
+  </main><footer class="bg-tlgray-100">
+  
+  <script src='/js/clipboard.min.js'></script>
+  <script src='/js/highlight.min.js'></script>
+  <script src='/js/highlightjs-line-numbers.min.js'></script>
+  <script src='/js/sweetalert2.min.js'></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+    hljs.initLineNumbersOnLoad();
+    new ClipboardJS('.url');
+
+    function OnClickURL() {
+      Swal.fire({
+        icon: 'success',
+        title: 'Copied!',
+        text: 'Copied the URL and title.'
+      })
+    }
+  </script>
+  
+  <script>
+    function toggleNav() {
+      var hamburger = document.getElementById("hamburgerbtn");
+      var overlay = document.getElementById("overlay");
+      var body = document.body;
+
+      hamburger.addEventListener("click", function () {
+        overlay.classList.toggle("open");
+        hamburger.classList.toggle("is-open");
+        body.classList.toggle("scroll-lock");
+      });
+    }
+    toggleNav();
+
+    document.querySelector('.scroll-top').addEventListener('click', () => {
+      document.documentElement.scrollTop = 0;
+    });
+  </script>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet" />
+  
+  <div class="flex items-center justify-between flex-wrap bg-gray-800 p-8 text-white">
+    <div class="items-center text-xl text-grey-900 mr-6">
+      SEGUE
+    </div>
+    <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto" id="mobileMenu">
+      <div class="text-lg lg:flex-grow">
+      </div>
+      <div class="flex flex-row items-center text-lg">
+        
+        <a href="/" class="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-8">
+          
+          Home
+          
+        </a>
+        
+        <a href="https://github.com/SEGUE-Project" class="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-8">
+          
+          <i class='icon-github text-2xl'></i>
+          
+        </a>
+        
+        <a href="https://twitter.com/ERC_SEGUE" class="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-8">
+          
+          <i class='icon-twitter text-2xl'></i>
+          
+        </a>
+        
+      </div>
+    </div>
+  </div>
+  <div class="copy pl-8 py-5 bg-tlgray-700 text-white text-md">
+    &copy; SEGUE: Urban Economic Segregation 2024 All Rights Reserved.
+  </div>
+</footer>
+</body>
+
+</html>
