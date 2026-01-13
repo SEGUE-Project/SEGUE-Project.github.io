@@ -1,0 +1,36 @@
+---
+title: "Contact"
+format: html
+editor: visual
+theme: minty 
+---
+
+You can contact us via [e-mail](mailto:c.cottineau@tudelft.nl), [social media](https://bsky.app/profile/erc-segue.bsky.social), [Github](https://github.com/SEGUE-Project) or even traditional mail:
+
+**Dr. Clémentine Cottineau-Mugadza**
+
+TU Delft, Faculty of Architecture
+
+Department of Urbanism, Urban studies section
+
+Building 8, room BG.West.710
+
+Julianalaan 134, 2628BL, Delft (NL)
+
+```{r, echo=FALSE}
+library(leaflet)
+
+leaflet() %>% 
+  setView(4.3705259, 52.0056562, 9) %>%
+  addProviderTiles(providers$CartoDB.Positron) %>%
+ addCircleMarkers(
+      lng = 4.3705259, lat = 52.0056562,
+    label = "TU Delft | Faculty of Architecture and the Built Environment",
+    radius = 17,
+    color = "#ff6600ff",
+    stroke = FALSE, fillOpacity = 0.5)
+
+
+```
+
+[\<- Back to home page](http://erc-segue.nl/)
