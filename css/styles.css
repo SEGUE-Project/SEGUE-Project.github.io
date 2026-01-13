@@ -574,7 +574,7 @@ body header .logo .box.first {
   animation-fill-mode: forwards;
   /* this prevents the animation from restarting! */
   animation-iteration-count: 1;
-  background: #ffd000;
+  background: #ffccaaff;
 }
 /* line 124, ../_scss/styles.scss */
 body header .logo .box.second {
@@ -629,7 +629,7 @@ body header .logo .box.third {
   animation-fill-mode: forwards;
   /* this prevents the animation from restarting! */
   animation-iteration-count: 1;
-  background: #78c2ad;
+  background: #ff6600ff;
 }
 
 /* line 129, ../_scss/styles.scss */
