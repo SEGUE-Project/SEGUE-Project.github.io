@@ -14,11 +14,17 @@ The SEGUE team is composed of four people.
 
 ## Clémentine Cottineau-Mugadza, PI of the project.
 
+::: {.img-float}
+![](C_Cottineau_photo.jpg){style="float: left; width: 20%; margin: 20px;"}
+:::
+
 Clémentine Cottineau-Mugadza is a geographer, currently Assistant Professor of Urban Studies at the Faculty of Architecture in TU Delft. Her research interests include urban inequality and segregation, urban scaling, urban shrinkage and the history of urban models. Working from the scale of the individual to that of macro-regional systems of cities, she uses advanced computational methods and microdata to review, analyze, model, and visualize the complexity of processes producing and maintaining inequalities in cities. Recent relevant publications include [@cottineau2022inequalities], [@cottineau2022cities], [@sarkar2024spatial], [@san_millan_economic_2025], [@sanmillan2025wealth] and [@cottineau2025economic] 
 
 Clémentine holds a PhD in Geography from Université Paris 1 Panthéon-Sorbonne. During previous research positions at UCL’s Centre for Advanced Spatial Analysis and CNRS’s Centre Maurice Halbwachs between 2014 and 2020, she has worked on the patterns of post-Soviet urbanisation, urban scaling laws, spatial agent-based modelling and industrial geographies.
 
+
 [http://clementinecttn.github.io/](http://clementinecttn.github.io/)
+
 
 ## Javier San Millan Tejedor, Phd candidate since 2023.
 
