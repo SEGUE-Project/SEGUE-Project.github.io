@@ -23,6 +23,8 @@ segregation using the frontier techniques of agent-based simulation.
 
 - [Objective 4](http://erc-segue.nl/research#obj4): to use this integrated model of urban economic segregation to develop, compare and assess policy scenarios of segregation reduction ex ante. 
 
+The full project proposal is available [online](https://github.com/SEGUE-Project/Grant/blob/main/101039455_SEGUE_ERC-2021-StG_Annex1.pdf).
+
 
 ## Theoretical analysis {#obj1}
 
