@@ -1,8 +1,8 @@
 ---
-title: "Contact"
+title: "Contact SEGUE"
 format: html
 editor: visual
-theme: minty 
+theme: united 
 ---
 
 You can contact us via [e-mail](mailto:c.cottineau@tudelft.nl), [social media](https://bsky.app/profile/erc-segue.bsky.social), [Github](https://github.com/SEGUE-Project) or even traditional mail:
