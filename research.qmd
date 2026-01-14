@@ -1,0 +1,66 @@
+---
+title: "Research"
+format: html
+editor: visual
+bibliography: all_references.bib 
+csl: apa.csl
+link-citations: true
+theme: minty 
+---
+
+[\<- Back to home page](http://erc-segue.nl/)
+
+SEGUE is a project about urban economic segregation: about understand which dynamic factors contribute to its persistence and how public policies can address is effectively. More specifically, we aspire to integrate multidisciplinary knowledge about economic inequality and urban segregation to better understand and counter the dynamics of economic segregation in cities. We aim to identify and model the main drivers of urban economic segregation to test and compare remediatory policies at three geographical scales: national, urban and individual.
+
+It is built around four objectives:
+
+
+- [Objective 1](segue.nl/research#obj1): to uncover the theoretical interactions between the processes generating urban economic segregation at various scales. 
+
+- [Objective 2](segue.nl/research#obj2): to find empirical evidence of the drivers of urban economic segregation and to test the relevance of mechanisms and interactions identified previously with empirical data. 
+
+- [Objective 3](segue.nl/research#obj3): to "animate" this combination of explanatory processes of urban economic
+segregation using the frontier techniques of agent-based simulation.
+
+- [Objective 4](segue.nl/research#obj4): to use this integrated model of urban economic segregation to develop, compare and assess policy scenarios of segregation reduction ex ante. 
+
+
+## Theoretical analysis {#obj1}
+
+Because we aim to integrate the analysis of national processes of economic inequality, geographical processes of urban evolution and sociodemographic processes of individual trajectories, we will consider theoretical explanations of urban economic segregation which differ in spatial and temporal scales. Some results have already been achieved in [@cottineau2024unforeseen] [@sarkar2024spatial] and [@cottineau2025economic].
+
+For instance, in [@cottineau2025economic], we review multilingual and multidisciplinary strands of literature on the causal pathways between economic inequality and economic segregation. We highlight the importance of temporality in the reverse causality between the two concepts. We also advocate for up-to-date comparable indices, new and diverse case studies, especially from unequal and segregated cities from non-dominant countries and a mutual awareness between empirical and theoretical research.
+
+## Empirical analysis {#obj2}
+
+We look for empirical evidence of the drivers of urban economic segregation using the exceptional source of data available in the Netherlands: register data on all residents, combined with their residential trajectories, education and family ties coupled with administrative datasets on their employment history, income and tax levels in a secure environment allow to study economic inequality and urban segregation exhaustively at the level of the individual (since 2011 for wealth variables, and since the 1990s for other individual characteristics, located at within regular squares of 100m x 100m). This objective also includes the empirical evaluation of past remediatory policies (for instance around the provision of social housing). Some results have already been achieved in [@askenazy2024geography], [@cottineau2025agent], [@san_millan_economic_2025] and [@sanmillan2025wealth].
+
+For instance in [@san_millan_economic_2025], we have shown that income inequality and income segregation have remained stable or decreased in the Netherlands over the past decade. In addition, we have found significant variation between urban areas. More unequal urban areas also tend to be more segregated, but patterns vary, and the same segregation levels can coexist with diverse inequality metrics. In terms of wealth, we have shown in  [@sanmillan2025wealth] that:
+
+- wealth segregation is much higher than income segregation; 
+- financial wealth is more unequally distributed than real estate wealth across society, but is more equally distributed across space; 
+- that wealth segregation is more sensitive to the spatial scale of measurement than income segregation;
+- that income segregation is decreasing in most urban areas whereas wealth segregation is rising almost everywhere in the Netherlands.
+
+## Agent-based modelling analysis {#obj3}
+
+Agent-based models (ABMs) are a type of generative models where heterogenous entities (agents) make autonomous decisions about their course of action, based on their evolution and that of their environment (including other agents). ABMs have developed rapidly in recent years and are valuable tools to represent individuals in interaction with one another and with their environment, as well as the structures these interactions generate or reinforce. The model we aim to develop represents individuals within households, involved in processes of urban segregation at three geographical scales (individuals, cities and towns, country). It will simulate the observed evolution of urban economic segregation in the Netherlands and provide a virtual laboratory of how people and cities respond to public policies ex ante. Its challenging multiscale structure and evaluation will push agent-based research forward, but will also produce a model of urban economic segregation which can be replicated to analyse other national case studies in the future, thanks to its modular structure: since some processes might be less relevant to other contexts, they can be deactivated without disrupting the simulation. Some results have already been achieved in [@achter2024conduct], [@roxburg2025outlining] and [@cottineau2025agent].
+
+In [@cottineau2025agent], we modelled the social effect of urban segregation ‘around the clock’ on health behaviours (such as the choice of a healthy diet), using an empirical agent-based model initialised on the Paris region with a synthetic population and a combination of scenarios of residential patterns (random allocation vs. census-based allocation reflecting the empirical level of residential segregation) with scenarios of daily mobility (no daily moves, random moves or survey-based daily moves reflecting the empirical level of daytime segregation in Paris). We found an increase in the uptake of healthy behaviours in all scenarios, but contrasted results with respect to social inequalities.
+
+
+## Theory testing with ABMs {#obj3}
+
+The last phase of the project will consist in implementing various policy as scenarios in the simulation to reduce urban economic segregation in the model. Such scenarios
+will correspond to typical policies experimented with in the Netherlands (social housing, renewal subsidies,
+mixing policies) and elsewhere (housing vouchers), as well as new ideas (universal income for instance). Using the simulation model to compare their effects urban economic segregation reduction provides a cost-effective tool for policy evaluation.
+
+
+
+
+## References
+
+::: {#refs}
+:::
+
+[Back to home page](http://segue.nl/)
