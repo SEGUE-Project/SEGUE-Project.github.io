@@ -32,6 +32,12 @@ Clémentine holds a PhD in Geography from Université Paris 1 Panthéon-Sorbonne
 
 ## Paulina Pizarro Kumpf, Phd candidate since 2025.
 
+![](Paulina.jpeg){style="float: left; width: 20%; margin: 20px;"}
+
+Paulina is a Transport Engineer from Pontificia Universidad Católica de Chile, specialized in urban mobility. In 2017, She did a research internship at Texas A&M, and in 2019, worked as an intern consultant at the Interamerican Development Bank in the Transportation Division, where she worked on electromobility and gender equality in transportation. In 2022-2023, she designed sustainable transport solutions and evaluated the urban impacts of real estate developments at the Providencia municipality in an interdisciplinary team. In 2024 she obtained my MSc where she trained neural networks to extract information from satellite images to improve data availability for the design of transportation systems.
+
+Paulina joined SEGUE in February 2025 as a PhD researcher. Her research focuses on the use of agent-based models (ABM) to understand and simulate economic segregation in The Netherlands. 
+
 ## References
 
 ::: {#refs}
