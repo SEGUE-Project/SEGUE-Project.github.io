@@ -14,7 +14,7 @@ link-citations: true
 
 - On 16 January 2026, Clémentine will be part of the round-table on gentrification, real estate and urban sprawl at the premiere of the theatre play "Quand la ville se lève" (When the city rises) at the Scène de rechercher in Paris. More information [here](https://scenederecherche.ens-paris-saclay.fr/agenda/quand-ville-se-leve).
 
-- On 8-10 April 2026, Javi and Clémentine will present their SEGUE research at the conference GeoBenelus in Leuven. More information about the conference [here](https://www.benelux-geo.eu/).
+- On 8-10 April 2026, Javi and Clémentine will present their SEGUE research at the conference GeoBenelux in Leuven. More information about the conference [here](https://www.benelux-geo.eu/).
 
 ## Recent publications
 
