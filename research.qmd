@@ -50,10 +50,9 @@ Agent-based models (ABMs) are a type of generative models where heterogenous ent
 In [@cottineau2025agent], we modelled the social effect of urban segregation ‘around the clock’ on health behaviours (such as the choice of a healthy diet), using an empirical agent-based model initialised on the Paris region with a synthetic population and a combination of scenarios of residential patterns (random allocation vs. census-based allocation reflecting the empirical level of residential segregation) with scenarios of daily mobility (no daily moves, random moves or survey-based daily moves reflecting the empirical level of daytime segregation in Paris). We found an increase in the uptake of healthy behaviours in all scenarios, but contrasted results with respect to social inequalities.
 
 
-## Theory testing with ABMs {#obj4}
+## Policy testing with ABMs {#obj4}
 
-The last phase of the project will consist in implementing various policy as scenarios in the simulation to reduce urban economic segregation in the model. Such scenarios
-will correspond to typical policies experimented with in the Netherlands (social housing, renewal subsidies,
+The last phase of the project will consist in implementing various policy as scenarios in the simulation to reduce urban economic segregation in the model. Such scenarios will correspond to typical policies experimented with in the Netherlands (social housing, renewal subsidies,
 mixing policies) and elsewhere (housing vouchers), as well as new ideas (universal income for instance). Using the simulation model to compare their effects urban economic segregation reduction provides a cost-effective tool for policy evaluation.
 
 
