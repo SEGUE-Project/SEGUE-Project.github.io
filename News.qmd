@@ -12,21 +12,19 @@ link-citations: true
 
 ## Future events
 
-- On 16 January 2026, Clémentine will be part of the round-table on gentrification, real estate and urban sprawl at the premiere of the theatre play "Quand la ville se lève" (When the city rises) at the Scène de rechercher in Paris. More information [here](https://scenederecherche.ens-paris-saclay.fr/agenda/quand-ville-se-leve).
-
-- On 8-10 April 2026, Javi and Clémentine will present their SEGUE research at the conference GeoBenelux in Leuven. More information about the conference [here](https://www.benelux-geo.eu/).
+-   On 8-10 April 2026, Javi and Clémentine will present their SEGUE research at the conference GeoBenelux in Leuven. More information about the conference [here](https://www.benelux-geo.eu/).
 
 ## Recent publications
 
--  **December 2025** [@cottineau2025agent]: In this article, we model the social effect of urban segregation ‘around the clock’ on health behaviours (such as the choice of a healthy diet). We do so using an empirical agent-based model initialised on the Paris region with a synthetic population and a combination of scenarios of residential patterns (random allocation vs. census-based allocation reflecting the empirical level of residential segregation) with scenarios of daily mobility (no daily moves, random moves or survey-based daily moves reflecting the empirical level of daytime segregation in Paris). We find an increase in the uptake of healthy behaviours in all scenarios, but contrasted results with respect to social inequalities.
+- **January 2026** [@cottineau2026rethinking]: This is a review of the book "Rethinking Spatial Inequality", by Linda M. Lobao and Gregory Hooks.
 
--  **November 2025**  [@cottineau2025economic]: In this article, we review multilingual and multidisciplinary strands of literature on the causal pathways between economic inequality and economic segregation. We highlight the importance of temporality in the reverse causality between the two concepts. We also advocate for up-to-date comparable indices, new and diverse case studies, especially from unequal and segregated cities from non-dominant countries and a mutual awareness between empirical and theoretical research.
+-   **December 2025** [@cottineau2025agent]: In this article, we model the social effect of urban segregation ‘around the clock’ on health behaviours (such as the choice of a healthy diet). We do so using an empirical agent-based model initialised on the Paris region with a synthetic population and a combination of scenarios of residential patterns (random allocation vs. census-based allocation reflecting the empirical level of residential segregation) with scenarios of daily mobility (no daily moves, random moves or survey-based daily moves reflecting the empirical level of daytime segregation in Paris). We find an increase in the uptake of healthy behaviours in all scenarios, but contrasted results with respect to social inequalities.
 
--  **October 2025**  [@sanmillan2025wealth]: In this article, we explore how the spatiotemporal patterns of affluence and poverty differ when considering wealth versus income. By analyzing geo-coded microdata from the Netherlands, we show that wealth segregation is much higher than income segregation; that financial wealth is more unequally distributed than real estate wealth across society, but is more equally distributed across space; that wealth segregation is more sensitive to the spatial scale of measurement than income segregation; that income segregation is decreasing in most urban areas whereas wealth segregation is rising almost everywhere in the Netherlands.
+-   **November 2025** [@cottineau2025economic]: In this article, we review multilingual and multidisciplinary strands of literature on the causal pathways between economic inequality and economic segregation. We highlight the importance of temporality in the reverse causality between the two concepts. We also advocate for up-to-date comparable indices, new and diverse case studies, especially from unequal and segregated cities from non-dominant countries and a mutual awareness between empirical and theoretical research.
 
+-   **October 2025** [@sanmillan2025wealth]: In this article, we explore how the spatiotemporal patterns of affluence and poverty differ when considering wealth versus income. By analyzing geo-coded microdata from the Netherlands, we show that wealth segregation is much higher than income segregation; that financial wealth is more unequally distributed than real estate wealth across society, but is more equally distributed across space; that wealth segregation is more sensitive to the spatial scale of measurement than income segregation; that income segregation is decreasing in most urban areas whereas wealth segregation is rising almost everywhere in the Netherlands.
 
 ## References
 
 ::: {#refs}
 :::
-
