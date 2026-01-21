@@ -14,7 +14,7 @@ The SEGUE team is composed of four people.
 
 ## Clémentine Cottineau-Mugadza, PI of the project.
 
-::: {.img-float}
+::: img-float
 ![](C_Cottineau_photo.jpg){style="float: left; width: 20%; margin: 20px;"}
 :::
 
@@ -22,9 +22,7 @@ Clémentine Cottineau-Mugadza is a geographer, currently Assistant Professor of 
 
 Clémentine holds a PhD in Geography from Université Paris 1 Panthéon-Sorbonne. During previous research positions at UCL’s Centre for Advanced Spatial Analysis and CNRS’s Centre Maurice Halbwachs between 2014 and 2020, she has worked on the patterns of post-Soviet urbanisation, urban scaling laws, spatial agent-based modelling and industrial geographies.
 
-
-[http://clementinecttn.github.io/](http://clementinecttn.github.io/)
-
+<http://clementinecttn.github.io/>
 
 ## Javier San Millan Tejedor, Phd candidate since 2023.
 
@@ -32,7 +30,11 @@ Javier joined SEGUE in November 2023 as a PhD researcher. His research focuses o
 
 ## Diego Buitrago Mora, postdoctoral researcher since 2024.
 
-Diego joined SEGUE in July 2024 as a postdoctoral researcher. His research focuses on the evaluation of remediatory policies aimed to reduce economic segregation in The Netherlands. He is therefore contributing to objectives [2](https://erc-segue.nl/research#obj2) and [4](https://erc-segue.nl/research#obj4).
+Diego is an applied economist from Bogotá (Colombia). He obtained his PhD in Applied Economics from the Universitat Autònoma de Barcelona in 2023 (cum laude). His research focuses on urban and regional economics, with particular attention to spatial inequality, economic segregation, urban land regulation, and transport and housing policies. He works extensively with large-scale spatial microdata and quantitative methods to evaluate how public policies shape urban form and socio-economic outcomes. His work aims to generate policy-relevant evidence to better understand and address inequalities within cities and metropolitan areas.
+
+Diego joined SEGUE in July 2024 as a postdoctoral researcher. Within the project, he studies the impact of housing allocation policies on local patterns of economic segregation in the Netherlands. He focuses on a nationwide policy that restricts access to social housing based on income thresholds. Diego uses microdata from Statistics Netherlands (CBS), and combines spatial econometric techniques with detailed descriptive and causal analysis. Preliminary results suggest that the allocation policy affected local segregation patterns, with measurable changes in neighbourhood-level clustering of income groups after its implementation. Ongoing work examines the magnitude and heterogeneity of these effects across space and over time. He therefore contributes to objectives [2](https://erc-segue.nl/research#obj2) and [4](https://erc-segue.nl/research#obj4) of the project.
+
+His work has been presented at multiple recent scientific events, such as the 2025 Workshop in Urban Economics and Economic Geography in Reading (UK), ERSA 2025 in Athens (GR) and ODDISEI 2025 in Utrecht (NL).
 
 
 ## Paulina Pizarro Kumpf, Phd candidate since 2025.
