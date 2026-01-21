@@ -26,7 +26,13 @@ Clémentine holds a PhD in Geography from Université Paris 1 Panthéon-Sorbonne
 
 ## Javier San Millan Tejedor, Phd candidate since 2023.
 
-Javier joined SEGUE in November 2023 as a PhD researcher. His research focuses on the computation and statistical modelling of economic segregation in The Netherlands. He contributes to objectives [2](https://erc-segue.nl/research#obj2) and [4](https://erc-segue.nl/research#obj4).
+Javier is a PhD researcher in Urbanism at TU Delft and a member of the SEGUE project. His doctoral research focuses on the computation and statistical modelling of economic segregation in the Netherlands and its relationship with economic inequality, with particular attention to the role of housing policy in shaping these dynamics. Within SEGUE, he contributes primarily to objectives [2](https://erc-segue.nl/research#obj2) and [4](https://erc-segue.nl/research#obj4).
+
+Javier works extensively with large-scale administrative microdata from Statistics Netherlands (CBS), combining spatial analysis with causal inference methods to study income and wealth segregation. In parallel, he has used experimental methods such as correspondence testing to study ethno-racial discrimination in housing markets. Recent relevant publications include [@san_millan_economic_2025], [@javiDiscrimination] and [@sanmillan2025wealth].
+
+He holds an MSc in City Design and Social Science from the London School of Economics (2021–2022), where he studied as a La Caixa Foundation Fellow. He previously completed a double bachelor’s degree in Law and International Studies at Universidad Carlos III de Madrid . Prior to starting his PhD, he worked as a research assistant at the UC Berkeley Center for Community Innovation, the Directorate of Education of the OECD in Paris, and the Discrimination & Inequality Lab (D-Lab).
+
+<http://javiersanmillan.github.io/>
 
 ## Diego Buitrago Mora, postdoctoral researcher since 2024.
 

@@ -29,7 +29,7 @@ theme: united
 - on theories of urban inequality and segregation, literature reviews and the history of urban models:
  [@cottineau2024unforeseen] [@sarkar2024spatial] [@cottineau2024accommodating] [@SLRbanismWorkingPaper] [@cottineau2025agent] [@cottineau2025economic] 
 
-- on empirical patterns of inequality and segregation  [@askenazy2024geography] [@san_millan_economic_2025] [@sanmillan2025wealth]  [@cottineau2025agent] 
+- on empirical patterns of inequality and segregation  [@askenazy2024geography] [@san_millan_economic_2025] [@javiDiscrimination] [@sanmillan2025wealth]  [@cottineau2025agent] 
 
 -   on Agent-based modelling: [@achter2024conduct] [@cottineau2025agent] [@roxburg2025outlining]
 
