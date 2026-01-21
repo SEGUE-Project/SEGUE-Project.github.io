@@ -26,6 +26,12 @@ Clémentine holds a PhD in Geography from Université Paris 1 Panthéon-Sorbonne
 
 ## Javier San Millan Tejedor, Phd candidate since 2023.
 
+
+::: img-float
+![](Javier.png){style="float: left; width: 20%; margin: 20px;"}
+:::
+
+
 Javier is a PhD researcher in Urbanism at TU Delft and a member of the SEGUE project. His doctoral research focuses on the computation and statistical modelling of economic segregation in the Netherlands and its relationship with economic inequality, with particular attention to the role of housing policy in shaping these dynamics. Within SEGUE, he contributes primarily to objectives [2](https://erc-segue.nl/research#obj2) and [4](https://erc-segue.nl/research#obj4).
 
 Javier works extensively with large-scale administrative microdata from Statistics Netherlands (CBS), combining spatial analysis with causal inference methods to study income and wealth segregation. In parallel, he has used experimental methods such as correspondence testing to study ethno-racial discrimination in housing markets. Recent relevant publications include [@san_millan_economic_2025], [@javiDiscrimination] and [@sanmillan2025wealth].
