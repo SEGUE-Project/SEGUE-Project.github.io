@@ -12,9 +12,11 @@ link-citations: true
 
 ## Future events
 
--   On 8-10 April 2026, Javi and Clémentine will present their SEGUE research at the conference GeoBenelux in Leuven. More information about the conference [here](https://www.benelux-geo.eu/). Clémentine's presentation is available [here](https://clementinecttn.github.io/GeoBenelux/SegregationABM_GeoBeNeLux_2026)
+-   On 8-10 April 2026, Javi and Clémentine will present their SEGUE research at the conference GeoBenelux in Leuven (BE). More information about the conference [here](https://www.benelux-geo.eu/). Clémentine's presentation is available [here](https://clementinecttn.github.io/GeoBenelux/SegregationABM_GeoBeNeLux_2026)
 
 -   On 19 May 2026, Clémentine will giving a keynote "inspirational talk" at the Social Simulation FesT 2026 online. More information about the conference [here](https://essa.eu.org/social-simulation-fest-2026/). 
+
+- In July 2026, Javi will be presenting his work at the RC21 Conference 2026 in Vienna (AT). More information about the conference [here](https://www.rc21.org/en/2026-rc21-conference-in-vienna/)
 
 ## Recent publications
 
