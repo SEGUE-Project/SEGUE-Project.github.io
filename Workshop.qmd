@@ -1,0 +1,37 @@
+---
+title: "2026 Workshop: Updating urban segregation computation with R"
+format: html
+editor: visual
+bibliography: all_references.bib 
+csl: apa.csl
+link-citations: true
+theme: united 
+---
+
+## Description {#main}
+
+In November 2026, we are hosting a workshop gathering members of the [![](logo.png){fig-align="left" width="50"}](http://erc-segue.nl/) project, members of [![](Logo_Rbanism_%20Full.png){fig-align="left" width="50"}](http://rbanism.org/) and external experts, to identify and prioritise the methodological and technical developments needed to address new theoretical developments in the field of urban segregation (with R).
+
+------------------------------------------------------------------------
+
+During 5 days, we want to foster **research discussions** spanning the diversity of theories and approaches to urban segregation (in terms of location, scale and social attributes considered, as well as type of data used), create a **community** of urban scholars who can collaborate on frontier research projects, comparative analysis, theory and methodology development, but also prepare the development of an **R package** dedicated to assist with the selection of appropriate measures of urban segregation (a “routemap”), their computation, visualization and analysis necessary to tackle state-of-the-art research questions in the field of urban segregation.
+
+Expect code-along crash courses, flash talks, group work, social moments and collective discussions to align and share knowledge on the topic and create a community feeling.
+
+The workshop is hosted by TU Delft in the Netherlands ([Faculty of Architecture and the Built environment](https://www.tudelft.nl/en/architecture-and-the-built-environment) and [Library](https://www.tudelft.nl/en/library/)) on **9th-13th November 2026**. It will comprise 25-30 participants and funded by the ERC project [![](logo.png){fig-align="left" width="50"}](http://erc-segue.nl/).
+
+
+## Registration {#form}
+
+If you would like to be part of this event, please fill in the form below.
+
+<iframe src="https://framaforms.org/workshop-updating-urban-segregation-computation-with-r-1777633857" width="100%" height="800" border="0">
+
+</iframe>
+
+
+## References {#publi-list}
+
+::: {#refs}
+:::
+
