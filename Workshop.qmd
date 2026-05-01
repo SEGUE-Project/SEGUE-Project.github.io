@@ -20,9 +20,9 @@ In November 2026, [![](TUDelft.png){fig-align="left" width="60"}](https://www.tu
 
 During 5 days, we want to foster **research discussions** spanning the diversity of theories and approaches to urban segregation (in terms of location, scale and social attributes considered, as well as type of data used), create a **community** of urban scholars who can collaborate on frontier research projects, comparative analysis, theory and methodology development, but also prepare the development of an **R package** dedicated to assist with the selection of appropriate measures of urban segregation (a “routemap”), their computation, visualization and analysis necessary to tackle state-of-the-art research questions in the field of urban segregation.
 
-If you would like to be part of this event, please fill in the registration form below.
+If you would like to be part of this event, please fill in the registration form **before 30th June 2026**.
 
-## Registration {#form}
+## Registration (before 2026-06-30) {#form}
 <iframe src="https://framaforms.org/workshop-updating-urban-segregation-computation-with-r-1777633857" width="100%" height="800" border="0"></iframe>
 
 ## Programme  {#program}
