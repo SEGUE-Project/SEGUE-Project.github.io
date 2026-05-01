@@ -1,6 +1,10 @@
 ---
 title: "2026 Workshop: Updating urban segregation computation with R"
-format: html
+format:
+  html:
+    toc: true
+    html-math-method: katex
+    
 editor: visual
 bibliography: all_references.bib 
 csl: apa.csl
@@ -8,26 +12,147 @@ link-citations: true
 theme: united 
 ---
 
-## Description {#main}
+## Summary
 
-In November 2026, we are hosting a workshop gathering members of the [![](logo.png){fig-align="left" width="50"}](http://erc-segue.nl/) project, members of [![](Logo_Rbanism_%20Full.png){fig-align="left" width="50"}](http://rbanism.org/) and external experts, to identify and prioritise the methodological and technical developments needed to address new theoretical developments in the field of urban segregation (with R).
+In November 2026, we are hosting a workshop gathering members of the [![](logo.png){fig-align="left" width="50"}](http://erc-segue.nl/) project, members of [![](Logo_Rbanism_%20Full.png){fig-align="left" width="50"}](http://rbanism.org/) and external experts, to **identify and prioritise the methodological and technical developments needed to address new theoretical developments in the field of urban segregation (with R)**.
 
 ------------------------------------------------------------------------
 
 During 5 days, we want to foster **research discussions** spanning the diversity of theories and approaches to urban segregation (in terms of location, scale and social attributes considered, as well as type of data used), create a **community** of urban scholars who can collaborate on frontier research projects, comparative analysis, theory and methodology development, but also prepare the development of an **R package** dedicated to assist with the selection of appropriate measures of urban segregation (a “routemap”), their computation, visualization and analysis necessary to tackle state-of-the-art research questions in the field of urban segregation.
 
-Expect code-along crash courses, flash talks, group work, social moments and collective discussions to align and share knowledge on the topic and create a community feeling.
+The workshop is hosted by TU Delft in the Netherlands ([Faculty of Architecture and the Built environment](https://www.tudelft.nl/en/architecture-and-the-built-environment) and [Library](https://www.tudelft.nl/en/library/)) on **9th-13th November 2026**. It will comprise 25-30 participants and funded by the ERC project SEGUE (101039455).
 
-The workshop is hosted by TU Delft in the Netherlands ([Faculty of Architecture and the Built environment](https://www.tudelft.nl/en/architecture-and-the-built-environment) and [Library](https://www.tudelft.nl/en/library/)) on **9th-13th November 2026**. It will comprise 25-30 participants and funded by the ERC project [![](logo.png){fig-align="left" width="50"}](http://erc-segue.nl/).
-
+If you would like to be part of this event, please fill in the registration form below.
 
 ## Registration {#form}
+<iframe src="https://framaforms.org/workshop-updating-urban-segregation-computation-with-r-1777633857" width="100%" height="800" border="0"></iframe>
 
-If you would like to be part of this event, please fill in the form below.
+## Programme  {#program}
 
-<iframe src="https://framaforms.org/workshop-updating-urban-segregation-computation-with-r-1777633857" width="100%" height="800" border="0">
+This workshop will be conducted over 5 days. The week switches from an initial focus on getting to know each other and reaching consensus on needs of our community to a final focus on package design and development planning. 
 
-</iframe>
+----
+
+**Pre-workshop**, we will invite participants to submit one paper that addresses segregation and causality in an interesting way, and to prepare one concrete contribution to the workshop (whether data, text, or code). This will produce a select library of data, code and literature from which to accelerate the review of our community’s needs during the workship. We will also survey the participants’ experience, questions and interests in advance to include their input in the preparation of the workshop and suggest participants clusters ahead of the workshop. 
+
+---- 
+
+During the workshop, we build each day on the previous one as follows:
+
+### Day 1. Forming community over a common goal  
+
+- Introductory overview: What are the aims of the workshop? What is the program of the week/day? What do we want to achieve.
+- Speed dating: who are we? What do we bring to the workshop? what would we like to work on next in the field of urban segregation and what’s missing besides time and money? What are the unanswered questions due to lack of computation interest and skills in the field?
+- Review talks: Why quantify urban segregation? What’s the current landscape of indicators and packages?
+- Code along crash course: Comparing and interpreting the results of different segregation indices with existing packages.
+- Panel discussion: What are the achievements and unanswered questions in urban economic segregation?
+- Flash talks: what am I working on? 
+- Social moment: informal conversations over drinks and bites.
+
+### Day 2. Finding consensus over the community’s needs
+
+- Review talks: How to develop an R package for urban segregation?
+- Code along crash course: Writing functions and computing indices
+- Review talks: How to model urban segregation, including its spatial dimension?
+- Code along crash course: (spatial) regression modelling with R
+- Panel discussion: What are the specificities of different dimensions of urban segregation?
+- Work groups: How are these specificities included in current R package landscape?
+- Reporting moment: Coming up with a collective list of needs 
+
+###  Day 3. Switching from analysis to design
+
+- Review talks: What are the temporal characteristics of urban segregation?
+- Code along crash course: visualising urban segregation
+- Site visit: Excursion to Rotterdam and Schiedam in relation to urban segregation.
+- Collective discussion: Avoiding the YARP syndrome (Yet Another R Package).
+- Social Moment: Workshop dinner
+
+### Day 4. R package design
+
+- Panel discussion: What are the specificities of multi-layered and multi-scale urban segregation?
+- Work groups: Defining the package requirements: 5 groups with distinct aspects of the tasks (indicators, spatial dimension, visualisation, interpretation and link to theory, perimeter of the package)
+- Reporting moment: Coming up with a collective list of tests 
+- Code along crash course: test-driven development
+- Collective discussion: How to keep this community together in the next few weeks/months? 
+- Social moment: informal conversations in small groups
+
+### Day 5. Preparing the follow-up
+
+- Work groups: A Developer group work on prioritizing functions to develop within the package. A User group work on defining the use cases (specificities, data availability, etc) to demonstrate the added-value of the package.
+- Reporting moment: The two group report on their work and the whole group discuss the order of the lists of functions to develop and list of use cases 
+- Collective discussion: Defining roles, timelines and actions for the follow-up activities.
+- Planning moment: Agreeing on a strategic roadmap for the package development, user plan and publication plan. 
+- Summary closing and goodbyes: informal closing over drinks and bites.
+
+---- 
+
+**Post-workshop**, we will implement the roadmap to complete the package, write its documentation and user manual. Using  project, members of [![](Logo_Rbanism_%20Full.png){fig-align="left" width="50"}](http://rbanism.org/)’s experience, [![](logo.png){fig-align="left" width="50"}](http://erc-segue.nl/)’s funding and the co-organisers’ time and coordination efforts, the community will be brought together virtually at regular intervals, as well as in person for a final conference showcasing the package and its use cases.
+
+
+## Organisation team and confirmed partipants {#team}
+
+- Clémentine Cottineau-Mugadza, Assistant Professor in urban studies at TU Delft SEGUE, [![](Logo_Rbanism_%20Full.png){fig-align="left" width="10"}](http://rbanism.org/)). [https://clementinecttn.github.io/](https://clementinecttn.github.io/)
+
+- Javier San Millan Tejedor, PhD Candidate in urban studies at TU Delft SEGUE, [![](Logo_Rbanism_%20Full.png){fig-align="left" width="10"}](http://rbanism.org/) [https://javiersanmillan.github.io/](https://javiersanmillan.github.io/)
+
+- Ignacio Urria Yáñez, PhD Candidate in urban studies at TU Delft [![](Logo_Rbanism_%20Full.png){fig-align="left" width="10"}](http://rbanism.org/) [https://www.tudelft.nl/staff/i.a.urriayanez/](https://www.tudelft.nl/staff/i.a.urriayanez/)
+
+- Daniele Cannatella, Assistant Professor in spatial data science at TU Delft [![](Logo_Rbanism_%20Full.png){fig-align="left" width="10"}](http://rbanism.org/) [https://www.tudelft.nl/staff/d.cannatella/](https://www.tudelft.nl/staff/d.cannatella/)
+
+- Claudiu Forgaci, Assistant Professor in urban design at TU Delft [![](Logo_Rbanism_%20Full.png){fig-align="left" width="10"}](http://rbanism.org/) [https://cforgaci.github.io/](https://cforgaci.github.io/)
+
+- Julien Migozzi, Assistant Professor in Development Studies at University of Cambridge, UK [https://jmigozzi.github.io/](https://jmigozzi.github.io/)
+
+- Aurélie Douet, research engineer (GIS and mapping) at EHESS, France [https://crh.ehess.fr/index.php?9040](https://crh.ehess.fr/index.php?9040)
+
+- Ana Petrovic, Assistant Professor in urban studies at TU Delft [![](Logo_Rbanism_%20Full.png){fig-align="left" width="10"}](http://rbanism.org/) [https://research.tudelft.nl/en/persons/a-petrovi%C4%87/](https://research.tudelft.nl/en/persons/a-petrovi%C4%87/)
+
+- Levi John Wolf, in Spatial Analysis at the University of Bristol, UK [https://www.ljwolf.org/](https://www.ljwolf.org/)
+
+- Seong-Yun Hong, Kyung Hee University, South Korea [https://khu.elsevierpure.com/en/persons/seong-yun-hong/](https://khu.elsevierpure.com/en/persons/seong-yun-hong/)
+
+- Selcan Mutgan, Institute for Analytical Sociology in Linköping University, Sweden [https://www.selcanmutgan.com/](https://www.selcanmutgan.com/)
+
+- Yuliia Kazmina, Faculty of Social and Behavioural Sciences, University of Amsterdam (NL) [https://www.uva.nl/en/profile/k/a/y.kazmina/y.kazmina.html](https://www.uva.nl/en/profile/k/a/y.kazmina/y.kazmina.html)
+
+- Julie Vallée, CNRS, LISST, France [https://lisst.univ-tlse2.fr/home/julie-vallee](https://lisst.univ-tlse2.fr/home/julie-vallee)
+
+
+## Scientific case {#case}
+
+Urban segregation – i.e. the pattern of (geographical) separation between people of different social groups or economic levels – is a large component of the scientific program of urban sciences (geography, sociology, demography and economics). With dire consequences for social cohesion, economic mobility, but also health and education opportunities, urban segregation is a topic of renewed importance in a context of rising economic inequalities and uneven development. However, many questions about its causes, consequences and evolution persist: How does urban segregation relate to economic inequality? At which scale can urban planners best design more efficient policies to reduce urban segregation? What are the mechanisms through which some places produce better outcomes than others? Does segregation directly harm children in vulnerable families?
+
+Although urban segregation is as old as cities [@nightingale2012segregation], its scientific analysis and measurement can be traced back to the XXth century, with the development of the first segregation indices (cf. [@massey1988dimensions] for the first review). Since then, methodological developments, technical jumps and the release of ever more detailed social data at increasingly fine grain have fostered the creation of dozens of new indices, to address the spatial dimension of segregation [@white1983measurement] [@morrill1991], to consider multi-groups [@wong1998measuring], ordinal variables [@reardon2009measures] and to identify the sub-group components driving segregation. In a first review of the segregation index landscape, the organising team identified 30 distinct measures, along with their use case characteristics. 
+
+To apply these measures empirically, researchers from European institutions have access to more and richer data nowadays, from register microdata (as in the Netherlands, one of the leading countries in their dissemination, but also Austria or Sweden) to granular census tract-based data on an annual basis (e.g. Spain). These rich sources of data represent an opportunity that has not yet been fully exploited, partly due to the substantial computational and coding requirements involved with their wrangling and analysis. On this technical front, websites, applications, dedicated software and packages have spurred to assist segregation scholars in computing segregation indices to describe the level and dimension of urban segregation, but few address the challenges of automation, reproducibility and scalability associated with the scientific approach. When they do, like the R packages  `OasisR`, `seg`, `segregation`, `divseg`, `ineq` or `mutualinf`, multiple problems arise:
+
+1.	The plethora of indices generates confusion as to which indices are the most appropriate to a particular analysis, given the social attribute studied, the scale, data type and dimension of segregation analysed. **We are missing a “routemap” to choose urban segregation measures**. This routemap would function as a decision tree to support urban scholars in their choice of possible segregation indices based on the characteristics of the case study . Without being prescriptive, this routemap would identify options for computing segregation adequately, including recent indices.
+2.	New methods take time to get adopted, and often require more technical skills or unique kinds of data to be used. Unfortunately, this means many urban scholars still exclusively resort to historic and simple indices – such as the (aspatial, 2-group) dissimilarity index – which are easy to compute and interpret but are ill-suited to analyse segregation of ordinal social attributes (such as income), the exposure dimension of segregation, its spatial structure, etc. In a systematic review of the literature on economic segregation, [@cottineau2025economic] finds a significant proportion of segregation indices are indeed misused, while a lack of consensus about which indices are best-suited in comparable contexts hampers reproducibility and comparative research. **We are missing a tool to make the computation of relevant indices, spatial counterfactuals and robustness analysis painless in order to address big questions of the field of segregation.**
+3.	Current theoretical developments in the field of urban segregation often ignore methodological innovations, and methodological developments do not address current debates of the field. **We are missing a forum where sharp theoretical developments meet novel computational science.**
+4.	Current computational approaches to address urban segregation are siloed into methodological traditions: segregation indices, spatial modelling methods and visualisation techniques are all relevant and complementary assets to qualify, quantify, observe and explain the evolution of urban segregation. **We are missing a workflow where all these can be accessed and put in relation using the same R package.**
+
+To address these objectives, this workshop will provide a variety of knowledge sharing moments for a community of young and more established scholars to meet and discuss, a collective moment to reflect and cooperate on the computational needs and opportunities of the field. It will also enable this community to work together to develop a solution to these challenges in the form of a new R package. During the 5-day workshop, participants will share their position on the four above challenges, propose and prioritize specific functionality needed in the new package, as well as prepare a user group responsible for testing the new developments on a diverse set of case studies. We thus aim to create a community of urban scholars to share frontier ideas on urban segregation research, collaborate on comparative analysis, theory and methodology development (AIM1). We also to advance the development of new tools and guidance to assist the wider community of urban scholars with the selection of appropriate measures of urban segregation, their computation, visualization and analysis necessary to tackle state-of-the-art research questions (AIM2). 
+
+This workshop comes at a point where the toolbox available in R to conduct research on urban segregation is both plentiful, cutting-edge and confusing. Two of the leading packages (`seg` and `OasisR`) have been temporarily unavailable and deprecated in the past two years, leading to disruption in the work of scholars used to them and reproducibility issues. Additionally, despite using existing packages in our daily research (whether `divseg`, `ineq`, `OasisR`, `seg` or `segregation`), we find three main limitations: 
+
+1. they do not allow all combinations of data features (multi-group AND spatial, ordinal AND spatial) 
+2. they do not consider multilayered attributes of segregation (i.e. the fact that economic groups are segregated differently from racial or ethnic groups, yet people have multiple identities and spatialities). This is particularly striking in the works on network segregation [@kazmina2024socio] and daytime segregation [@le2017social]
+3. they do not consider the multiple scales at which segregation might arise, from local segregation in the streets around one’s home to large-scale segregation in metropolitan areas, and every level in between [@petrovic2018multiscale].
+
+This workshop is meant to reach consensus on the current and most pressing needs of our community and team up with Seong-Yun Hong’s team (creator of the `seg` package) to update or recreate a segregation R package to complement the current offer. Writing a full package, with functions, tests, and documentation, is not realistic in 5 days. Rather, this workshop will be considered a success if we end up with:
+
+1.	an agreement on the most pressing needs of the community – OUTCOME1
+2.	a list of tests (using test-driven development, we first address the requirements of the package in plain English before coding the functions) – OUTCOME2
+3.	an ordered list of functions to develop – OUTCOME3
+4.	a series of diverse use cases from all over the world, with associated data – OUTCOME4
+5.	a roadmap for completing the work – OUTCOME5
+
+To make sure these outcomes are achieved, the first part of the workshop is devoted to review the various aspects of the state of the art, namely the reasons for quantifying segregation, the pool of possible indices and methods for quantification, available technical tools, functions, methods and visualisations provided by existing software packages, the workflow of computational urban segregation studies, which includes quantification, (spatial) modelling and visualisation. By discussing these elements and running through available tools on R through code-along moments, we address the levelling of information and skills for a pool of diverse participants. The second part of the workshop addresses the R package design and development planning, with group sessions dedicated to different aspects (indicators to code, spatial component to add, interpretation guide, etc.) and different roles (developer vs. user). The last day is entirely dedicated to writing down the priority lists of tests, functions and use cases to develop, and to plan the next steps. 
+
+In the weeks to follow, we will work on completing the package (developer group), write documentation and user manual, including diverse use cases (user group), and write two publications: one describing the package for a journal such as the [Journal of Open Source Software](https://joss.theoj.org/), and one the review exercise of this workshop, agenda-setting objective and scientific contribution of this package to urban segregation research, for a journal such as [Urban Studies](https://journals.sagepub.com/home/usj). 
+
+
+To do so, we will make use of two types of research infrastructure. First, we will tap into [![](Logo_Rbanism_%20Full.png){fig-align="left" width="50"}](http://rbanism.org/)’s experience. Founded by three participants of this workshop, Rbanism is a community of R practice operating at the department of Urbanism of TU Delft since 2022. It provides a pool of beta-users to test the package, a communication infrastructure and experience with engagement around computational tools for urban research. Second, we will use of the expertise and financial capacity of the ERC project [![](logo.png){fig-align="left" width="50"}](http://erc-segue.nl/) led by [Clémentine Cottineau-Mugadza](http://clementinecttn.github.io), on the topic of urban economic segregation. This project allows Clémentine to dedicate time to coordinate follow-up and writing activities, and will fund a conference in 2028-2029 to share and showcase the results of the package use and their contribution to urban segregation research. This activity should bring visibility to the newly created community of workshop participants. 
 
 
 ## References {#publi-list}
