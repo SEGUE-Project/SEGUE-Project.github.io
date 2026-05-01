@@ -103,19 +103,20 @@ During the workshop, we build each day on the previous one as follows:
 
 - Julien Migozzi, Assistant Professor in Development Studies at University of Cambridge, UK [https://jmigozzi.github.io/](https://jmigozzi.github.io/)
 
-- Aurélie Douet, research engineer (GIS and mapping) at EHESS, France [https://crh.ehess.fr/index.php?9040](https://crh.ehess.fr/index.php?9040)
+- Aurélie Douet, Research engineer (GIS and mapping) at EHESS, France [https://crh.ehess.fr/index.php?9040](https://crh.ehess.fr/index.php?9040)
 
 - Ana Petrovic, Assistant Professor in urban studies at TU Delft [![](Logo_Rbanism_%20Full.png){fig-align="left" width="10"}](http://rbanism.org/) [https://research.tudelft.nl/en/persons/a-petrovi%C4%87/](https://research.tudelft.nl/en/persons/a-petrovi%C4%87/)
 
-- Levi John Wolf, in Spatial Analysis at the University of Bristol, UK [https://www.ljwolf.org/](https://www.ljwolf.org/)
+- Levi John Wolf, Associate Professor of Spatial Analysis
+University of Bristol , UK [https://www.ljwolf.org/](https://www.ljwolf.org/)
 
-- Seong-Yun Hong, Kyung Hee University, South Korea [https://khu.elsevierpure.com/en/persons/seong-yun-hong/](https://khu.elsevierpure.com/en/persons/seong-yun-hong/)
+- Seong-Yun Hong, Associate Professor at Kyung Hee University, South Korea [https://khu.elsevierpure.com/en/persons/seong-yun-hong/](https://khu.elsevierpure.com/en/persons/seong-yun-hong/)
 
-- Selcan Mutgan, Institute for Analytical Sociology in Linköping University, Sweden [https://www.selcanmutgan.com/](https://www.selcanmutgan.com/)
+- Selcan Mutgan, Assistant Professor at the Institute for Analytical Sociology in Linköping University, Sweden [https://www.selcanmutgan.com/](https://www.selcanmutgan.com/)
 
-- Yuliia Kazmina, Faculty of Social and Behavioural Sciences, University of Amsterdam (NL) [https://www.uva.nl/en/profile/k/a/y.kazmina/y.kazmina.html](https://www.uva.nl/en/profile/k/a/y.kazmina/y.kazmina.html)
+- Yuliia Kazmina, PhD candidate at the Faculty of Social and Behavioural Sciences, University of Amsterdam (NL) [https://www.uva.nl/en/profile/k/a/y.kazmina/y.kazmina.html](https://www.uva.nl/en/profile/k/a/y.kazmina/y.kazmina.html)
 
-- Julie Vallée, CNRS, LISST, France [https://lisst.univ-tlse2.fr/home/julie-vallee](https://lisst.univ-tlse2.fr/home/julie-vallee)
+- Julie Vallée, Senior researcher at CNRS, LISST, France [https://lisst.univ-tlse2.fr/home/julie-vallee](https://lisst.univ-tlse2.fr/home/julie-vallee)
 
 
 ## Scientific case {#case}
