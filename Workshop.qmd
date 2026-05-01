@@ -76,7 +76,7 @@ This workshop will be conducted over 5 days. The week switches from an initial f
 
 ---- 
 
-**Post-workshop**, we will implement the roadmap to complete the package, write its documentation and user manual. Using  project, members of [![](Logo_Rbanism_%20Full.png){fig-align="left" width="50"}](http://rbanism.org/)’s experience, [![](logo.png){fig-align="left" width="50"}](http://erc-segue.nl/)’s funding and the co-organisers’ time and coordination efforts, the community will be brought together virtually at regular intervals, as well as in person for a final conference showcasing the package and its use cases.
+**Post-workshop**, we will implement the roadmap to complete the package, write its documentation and user manual. Using  [![](Logo_Rbanism_%20Full.png){fig-align="left" width="50"}](http://rbanism.org/)’s experience, [![](logo.png){fig-align="left" width="50"}](http://erc-segue.nl/)’s funding and the co-organisers’ time and coordination efforts, the community will be brought together virtually at regular intervals, as well as in person for a final conference showcasing the package and its use cases.
 
 
 ## Organizing team and confirmed partipants {#team}
