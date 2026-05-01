@@ -1,5 +1,5 @@
 ---
-title: "Contact SEGUE"
+title: "Contact [![](logo.png){fig-align='left' width='80'}](http://erc-segue.nl/)"
 format: html
 editor: visual
 theme: united 
@@ -33,4 +33,8 @@ leaflet() %>%
 
 ```
 
-[\<- Back to home page](http://erc-segue.nl/)
+
+
+-----------
+
+[![](logo.png){fig-align="left" width="100"}](http://erc-segue.nl/)

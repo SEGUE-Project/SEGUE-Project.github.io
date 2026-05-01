@@ -1,5 +1,5 @@
 ---
-title: "SEGUE News"
+title: "[![](logo.png){fig-align='left' width='80'}](http://erc-segue.nl/) News"
 format: html
 editor: visual
 theme: united 
@@ -8,27 +8,31 @@ csl: apa.csl
 link-citations: true
 ---
 
-[\<- Back to home page](http://erc-segue.nl/)
-
 ## Future events
 
--   On 8-10 April 2026, Javi and Clémentine will present their SEGUE research at the conference GeoBenelux in Leuven (BE). More information about the conference [here](https://www.benelux-geo.eu/). Clémentine's presentation is available [here](https://clementinecttn.github.io/GeoBenelux/SegregationABM_GeoBeNeLux_2026)
-
--   On 19 May 2026, Clémentine will giving a keynote "inspirational talk" at the Social Simulation FesT 2026 online. More information about the conference [here](https://essa.eu.org/social-simulation-fest-2026/). 
+- On 19 May 2026, Clémentine will giving a keynote "inspirational talk" at the Social Simulation FesT 2026 online. More information about the conference [here](https://essa.eu.org/social-simulation-fest-2026/).
 
 - In July 2026, Javi will be presenting his work at the RC21 Conference 2026 in Vienna (AT). More information about the conference [here](https://www.rc21.org/en/2026-rc21-conference-in-vienna/)
 
+- In September 2026, Javi and Clémentine will be presenting their work at the Royal Geographical Society Annual Meeting 2026 in London (UK). More information about the conference [here](https://www.rgs.org/research/annual-international-conference)
+
 ## Recent publications
 
--   **January 2026** [@cottineau2026rethinking]: This is a review of the book "Rethinking Spatial Inequality", by Linda M. Lobao and Gregory Hooks.
+- **January 2026** [@cottineau2026rethinking]: This is a review of the book "Rethinking Spatial Inequality", by Linda M. Lobao and Gregory Hooks.
 
--   **December 2025** [@cottineau2025agent]: In this article, we model the social effect of urban segregation ‘around the clock’ on health behaviours (such as the choice of a healthy diet). We do so using an empirical agent-based model initialised on the Paris region with a synthetic population and a combination of scenarios of residential patterns (random allocation vs. census-based allocation reflecting the empirical level of residential segregation) with scenarios of daily mobility (no daily moves, random moves or survey-based daily moves reflecting the empirical level of daytime segregation in Paris). We find an increase in the uptake of healthy behaviours in all scenarios, but contrasted results with respect to social inequalities.
+- **December 2025** [@cottineau2025agent]: In this article, we model the social effect of urban segregation ‘around the clock’ on health behaviours (such as the choice of a healthy diet). We do so using an empirical agent-based model initialised on the Paris region with a synthetic population and a combination of scenarios of residential patterns (random allocation vs. census-based allocation reflecting the empirical level of residential segregation) with scenarios of daily mobility (no daily moves, random moves or survey-based daily moves reflecting the empirical level of daytime segregation in Paris). We find an increase in the uptake of healthy behaviours in all scenarios, but contrasted results with respect to social inequalities.
 
--   **November 2025** [@cottineau2025economic]: In this article, we review multilingual and multidisciplinary strands of literature on the causal pathways between economic inequality and economic segregation. We highlight the importance of temporality in the reverse causality between the two concepts. We also advocate for up-to-date comparable indices, new and diverse case studies, especially from unequal and segregated cities from non-dominant countries and a mutual awareness between empirical and theoretical research.
+- **November 2025** [@cottineau2025economic]: In this article, we review multilingual and multidisciplinary strands of literature on the causal pathways between economic inequality and economic segregation. We highlight the importance of temporality in the reverse causality between the two concepts. We also advocate for up-to-date comparable indices, new and diverse case studies, especially from unequal and segregated cities from non-dominant countries and a mutual awareness between empirical and theoretical research.
 
--   **October 2025** [@sanmillan2025wealth]: In this article, we explore how the spatiotemporal patterns of affluence and poverty differ when considering wealth versus income. By analyzing geo-coded microdata from the Netherlands, we show that wealth segregation is much higher than income segregation; that financial wealth is more unequally distributed than real estate wealth across society, but is more equally distributed across space; that wealth segregation is more sensitive to the spatial scale of measurement than income segregation; that income segregation is decreasing in most urban areas whereas wealth segregation is rising almost everywhere in the Netherlands.
+- **October 2025** [@sanmillan2025wealth]: In this article, we explore how the spatiotemporal patterns of affluence and poverty differ when considering wealth versus income. By analyzing geo-coded microdata from the Netherlands, we show that wealth segregation is much higher than income segregation; that financial wealth is more unequally distributed than real estate wealth across society, but is more equally distributed across space; that wealth segregation is more sensitive to the spatial scale of measurement than income segregation; that income segregation is decreasing in most urban areas whereas wealth segregation is rising almost everywhere in the Netherlands.
 
 ## References
 
 ::: {#refs}
 :::
+
+
+-----------
+
+[![](logo.png){fig-align="left" width="100"}](http://erc-segue.nl/)
+

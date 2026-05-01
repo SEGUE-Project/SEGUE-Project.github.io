@@ -1,5 +1,5 @@
 ---
-title: "SEGUE Research"
+title: "[![](logo.png){fig-align='left' width='80'}](http://erc-segue.nl/) Research"
 format: html
 editor: visual
 bibliography: all_references.bib 
@@ -8,23 +8,19 @@ link-citations: true
 theme: united 
 ---
 
-[\<- Back to home page](http://erc-segue.nl/)
-
 SEGUE is a project about urban economic segregation: about understand which dynamic factors contribute to its persistence and how public policies can address is effectively. More specifically, we aspire to integrate multidisciplinary knowledge about economic inequality and urban segregation to better understand and counter the dynamics of economic segregation in cities. We aim to identify and model the main drivers of urban economic segregation to test and compare remediatory policies at three geographical scales: national, urban and individual.
 
 It is built around four objectives:
 
-- [Objective 1](http://erc-segue.nl/research#obj1): to uncover the theoretical interactions between the processes generating urban economic segregation at various scales. 
+- [Objective 1](http://erc-segue.nl/research#obj1): to uncover the theoretical interactions between the processes generating urban economic segregation at various scales.
 
-- [Objective 2](http://erc-segue.nl/research#obj2): to find empirical evidence of the drivers of urban economic segregation and to test the relevance of mechanisms and interactions identified previously with empirical data. 
+- [Objective 2](http://erc-segue.nl/research#obj2): to find empirical evidence of the drivers of urban economic segregation and to test the relevance of mechanisms and interactions identified previously with empirical data.
 
-- [Objective 3](http://erc-segue.nl/research#obj3): to "animate" this combination of explanatory processes of urban economic
-segregation using the frontier techniques of agent-based simulation.
+- [Objective 3](http://erc-segue.nl/research#obj3): to "animate" this combination of explanatory processes of urban economic segregation using the frontier techniques of agent-based simulation.
 
-- [Objective 4](http://erc-segue.nl/research#obj4): to use this integrated model of urban economic segregation to develop, compare and assess policy scenarios of segregation reduction ex ante. 
+- [Objective 4](http://erc-segue.nl/research#obj4): to use this integrated model of urban economic segregation to develop, compare and assess policy scenarios of segregation reduction ex ante.
 
 The full project proposal is available [online](https://github.com/SEGUE-Project/Grant/blob/main/101039455_SEGUE_ERC-2021-StG_Annex1.pdf).
-
 
 ## Theoretical analysis {#obj1}
 
@@ -36,10 +32,10 @@ For instance, in [@cottineau2025economic], we review multilingual and multidisci
 
 We look for empirical evidence of the drivers of urban economic segregation using the exceptional source of data available in the Netherlands: register data on all residents, combined with their residential trajectories, education and family ties coupled with administrative datasets on their employment history, income and tax levels in a secure environment allow to study economic inequality and urban segregation exhaustively at the level of the individual (since 2011 for wealth variables, and since the 1990s for other individual characteristics, located at within regular squares of 100m x 100m). This objective also includes the empirical evaluation of past remediatory policies (for instance around the provision of social housing). Some results have already been achieved in [@askenazy2024geography], [@cottineau2025agent], [@san_millan_economic_2025] and [@sanmillan2025wealth].
 
-For instance in [@san_millan_economic_2025], we have shown that income inequality and income segregation have remained stable or decreased in the Netherlands over the past decade. In addition, we have found significant variation between urban areas. More unequal urban areas also tend to be more segregated, but patterns vary, and the same segregation levels can coexist with diverse inequality metrics. In terms of wealth, we have shown in  [@sanmillan2025wealth] that:
+For instance in [@san_millan_economic_2025], we have shown that income inequality and income segregation have remained stable or decreased in the Netherlands over the past decade. In addition, we have found significant variation between urban areas. More unequal urban areas also tend to be more segregated, but patterns vary, and the same segregation levels can coexist with diverse inequality metrics. In terms of wealth, we have shown in [@sanmillan2025wealth] that:
 
-- wealth segregation is much higher than income segregation; 
-- financial wealth is more unequally distributed than real estate wealth across society, but is more equally distributed across space; 
+- wealth segregation is much higher than income segregation;
+- financial wealth is more unequally distributed than real estate wealth across society, but is more equally distributed across space;
 - that wealth segregation is more sensitive to the spatial scale of measurement than income segregation;
 - that income segregation is decreasing in most urban areas whereas wealth segregation is rising almost everywhere in the Netherlands.
 
@@ -49,14 +45,9 @@ Agent-based models (ABMs) are a type of generative models where heterogenous ent
 
 In [@cottineau2025agent], we modelled the social effect of urban segregation ‘around the clock’ on health behaviours (such as the choice of a healthy diet), using an empirical agent-based model initialised on the Paris region with a synthetic population and a combination of scenarios of residential patterns (random allocation vs. census-based allocation reflecting the empirical level of residential segregation) with scenarios of daily mobility (no daily moves, random moves or survey-based daily moves reflecting the empirical level of daytime segregation in Paris). We found an increase in the uptake of healthy behaviours in all scenarios, but contrasted results with respect to social inequalities.
 
-
 ## Policy testing with ABMs {#obj4}
 
-The last phase of the project will consist in implementing various policy as scenarios in the simulation to reduce urban economic segregation in the model. Such scenarios will correspond to typical policies experimented with in the Netherlands (social housing, renewal subsidies,
-mixing policies) and elsewhere (housing vouchers), as well as new ideas (universal income for instance). Using the simulation model to compare their effects urban economic segregation reduction provides a cost-effective tool for policy evaluation.
-
-
-
+The last phase of the project will consist in implementing various policy as scenarios in the simulation to reduce urban economic segregation in the model. Such scenarios will correspond to typical policies experimented with in the Netherlands (social housing, renewal subsidies, mixing policies) and elsewhere (housing vouchers), as well as new ideas (universal income for instance). Using the simulation model to compare their effects urban economic segregation reduction provides a cost-effective tool for policy evaluation.
 
 ## References
 
@@ -64,4 +55,7 @@ mixing policies) and elsewhere (housing vouchers), as well as new ideas (univers
 :::
 
 
+-----------
+
+[![](logo.png){fig-align="left" width="100"}](http://erc-segue.nl/)
 

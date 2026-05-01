@@ -1,5 +1,5 @@
 ---
-title: "SEGUE Team"
+title: "[![](logo.png){fig-align='left' width='80'}](http://erc-segue.nl/) Team"
 format: html
 editor: visual
 theme: united 
@@ -7,8 +7,6 @@ bibliography: all_references.bib
 csl: apa.csl
 link-citations: true
 ---
-
-[\<- Back to home page](http://erc-segue.nl/)
 
 The SEGUE team is composed of four people.
 
@@ -26,11 +24,9 @@ Clémentine holds a PhD in Geography from Université Paris 1 Panthéon-Sorbonne
 
 ## Javier San Millan Tejedor, Phd candidate since 2023.
 
-
 ::: img-float
 ![](Javier.png){style="float: left; width: 20%; margin: 20px;"}
 :::
-
 
 Javier is a PhD researcher in Urbanism at TU Delft and a member of the SEGUE project. His doctoral research focuses on the computation and statistical modelling of economic segregation in the Netherlands and its relationship with economic inequality, with particular attention to the role of housing policy in shaping these dynamics. Within SEGUE, he contributes primarily to objectives [2](https://erc-segue.nl/research#obj2) and [4](https://erc-segue.nl/research#obj4).
 
@@ -52,7 +48,6 @@ Diego joined SEGUE in July 2024 as a postdoctoral researcher. Within the project
 
 His work has been presented at multiple recent scientific events, such as the 2025 Workshop in Urban Economics and Economic Geography in Reading (UK), ERSA 2025 in Athens (GR) and ODDISEI 2025 in Utrecht (NL).
 
-
 ## Paulina Pizarro Kumpf, Phd candidate since 2025.
 
 ![](paulina.jpeg){style="float: left; width: 20%; margin: 20px;"}
@@ -65,3 +60,7 @@ Paulina joined SEGUE in February 2025 as a PhD researcher. Her research focuses 
 
 ::: {#refs}
 :::
+
+-----------
+
+[![](logo.png){fig-align="left" width="100"}](http://erc-segue.nl/)
