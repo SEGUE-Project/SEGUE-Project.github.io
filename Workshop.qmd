@@ -109,7 +109,7 @@ This workshop will be conducted over 5 days. The week switches from an initial f
 
 ## Date & location 
 
-The workshop will take place over 5 full days: [**9, 10, 11, 12 and 13 November 2026**](events.ics), in Delft, the Netherlands.
+The workshop will take place over 5 full days: [**9, 10, 11, 12 and 13 November 2026**](https://github.com/SEGUE-Project/SEGUE-Project.github.io/blob/main/events.ics), in Delft, the Netherlands.
 
 
 ```{r, echo=FALSE}
