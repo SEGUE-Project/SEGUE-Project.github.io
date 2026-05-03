@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//YourSite//ICS Event Generator//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:event-1777830705495-3ht3nkrt@yourdomain.com
+DTSTAMP:20260503T175145Z
+DTSTART;TZID=Europe/Berlin:20261109T090000
+DTEND;TZID=Europe/Berlin:20261113T170000
+SUMMARY:Workshop: Updating urban segregation computation with R
+DESCRIPTION:During 5 days\, we want to foster research discussions spanning the diversity of theories and approaches to urban segregation (in terms of location\, scale and social attributes considered\, as well as type of data used)\, create a community of urban scholars who can collaborate on frontier research projects\, comparative analysis\, theory and methodology development\, but also prepare the development of an R package dedicated to assist with the selection of appropriate measures of urban segregation (a “routemap”)\, their computation\, visualization and analysis necessary to tackle state-of-the-art research questions in the field of urban segregation.
+LOCATION:TU Delft\, Faculty of Architecture\, Julianalaan 134\, 2628BL\, Delft (NL)
+END:VEVENT
+END:VCALENDAR
