@@ -81,31 +81,31 @@ This workshop will be conducted over 5 days. The week switches from an initial f
 
 ## Organizing team and confirmed partipants {#team}
 
-- [Clémentine Cottineau-Mugadza](https://clementinecttn.github.io/), Assistant Professor in urban studies at [![](TUDelft.png){fig-align="left" width="60"}](https://www.tudelft.nl/)  [![](Logo_Rbanism_%20Full.png){fig-align="left" width="30"}](http://rbanism.org/)[![](logo.png){fig-align="left" width="30"}](http://erc-segue.nl/)  
-
-- [Javier San Millan Tejedor](https://javiersanmillan.github.io/), PhD Candidate in urban studies at [![](TUDelft.png){fig-align="left" width="60"}](https://www.tudelft.nl/)  [![](Logo_Rbanism_%20Full.png){fig-align="left" width="30"}](http://rbanism.org/)[![](logo.png){fig-align="left" width="30"}](http://erc-segue.nl/) 
-
-- [Ignacio Urria Yáñez](https://www.tudelft.nl/staff/i.a.urriayanez/), PhD Candidate in urban studies at [![](TUDelft.png){fig-align="left" width="60"}](https://www.tudelft.nl/)  [![](Logo_Rbanism_%20Full.png){fig-align="left" width="30"}](http://rbanism.org/) 
+- [Ana Petrovic](https://research.tudelft.nl/en/persons/a-petrovi%C4%87/), Assistant Professor in urban studies at [![](TUDelft.png){fig-align="left" width="60"}](https://www.tudelft.nl/)  [![](Logo_Rbanism_%20Full.png){fig-align="left" width="30"}](http://rbanism.org/) 
+- [Aurélie Douet](https://crh.ehess.fr/index.php?9040), Research engineer (GIS and mapping) at EHESS, France 
 
 - [Claudiu Forgaci](https://cforgaci.github.io/), Assistant Professor in urban design at [![](TUDelft.png){fig-align="left" width="60"}](https://www.tudelft.nl/)  [![](Logo_Rbanism_%20Full.png){fig-align="left" width="30"}](http://rbanism.org/) 
+- [Clémentine Cottineau-Mugadza](https://clementinecttn.github.io/), Assistant Professor in urban studies at [![](TUDelft.png){fig-align="left" width="60"}](https://www.tudelft.nl/)  [![](Logo_Rbanism_%20Full.png){fig-align="left" width="30"}](http://rbanism.org/)[![](logo.png){fig-align="left" width="30"}](http://erc-segue.nl/)  
+
 - [Daniele Cannatella](https://www.tudelft.nl/staff/d.cannatella/), Assistant Professor in spatial data science at [![](TUDelft.png){fig-align="left" width="60"}](https://www.tudelft.nl/)  [![](Logo_Rbanism_%20Full.png){fig-align="left" width="30"}](http://rbanism.org/) 
+- Diego Buitrago Mora, Postdoctoral research in urban studies at [![](TUDelft.png){fig-align="left" width="60"}](https://www.tudelft.nl/)  [![](logo.png){fig-align="left" width="30"}](http://erc-segue.nl/)
+
+- [Ignacio Urria Yáñez](https://www.tudelft.nl/staff/i.a.urriayanez/), PhD Candidate in urban studies at [![](TUDelft.png){fig-align="left" width="60"}](https://www.tudelft.nl/)  [![](Logo_Rbanism_%20Full.png){fig-align="left" width="30"}](http://rbanism.org/) 
+- [Javier San Millan Tejedor](https://javiersanmillan.github.io/), PhD Candidate in urban studies at [![](TUDelft.png){fig-align="left" width="60"}](https://www.tudelft.nl/)  [![](Logo_Rbanism_%20Full.png){fig-align="left" width="30"}](http://rbanism.org/)[![](logo.png){fig-align="left" width="30"}](http://erc-segue.nl/) 
+
+- [Julie Vallée](https://lisst.univ-tlse2.fr/home/julie-vallee), Senior researcher at CNRS, LISST, France
 
 - [Julien Migozzi](https://jmigozzi.github.io/), Assistant Professor in Development Studies at University of Cambridge, UK 
 
-- Diego Buitrago Mora, Postdoctoral research in urban studies at [![](TUDelft.png){fig-align="left" width="60"}](https://www.tudelft.nl/)  [![](logo.png){fig-align="left" width="30"}](http://erc-segue.nl/)
+- [Levi John Wolf](https://www.ljwolf.org/), Associate Professor of Spatial Analysis at the University of Bristol , UK 
 
 - [Selcan Mutgan](https://www.selcanmutgan.com/), Assistant Professor at the Institute for Analytical Sociology in Linköping University, Sweden 
 
-- [Yuliia Kazmina](https://www.uva.nl/en/profile/k/a/y.kazmina/y.kazmina.html), PhD candidate at the Faculty of Social and Behavioural Sciences, University of Amsterdam (NL) 
-
-- [Aurélie Douet](https://crh.ehess.fr/index.php?9040), Research engineer (GIS and mapping) at EHESS, France 
-
-- [Ana Petrovic](https://research.tudelft.nl/en/persons/a-petrovi%C4%87/), Assistant Professor in urban studies at [![](TUDelft.png){fig-align="left" width="60"}](https://www.tudelft.nl/)  [![](Logo_Rbanism_%20Full.png){fig-align="left" width="30"}](http://rbanism.org/) 
-- [Levi John Wolf](https://www.ljwolf.org/), Associate Professor of Spatial Analysis at the University of Bristol , UK 
-
 - [Seong-Yun Hong](https://khu.elsevierpure.com/en/persons/seong-yun-hong/), Associate Professor at Kyung Hee University, South Korea 
 
-- [Julie Vallée](https://lisst.univ-tlse2.fr/home/julie-vallee), Senior researcher at CNRS, LISST, France
+- [Yuliia Kazmina](https://www.uva.nl/en/profile/k/a/y.kazmina/y.kazmina.html), PhD candidate at the Faculty of Social and Behavioural Sciences, University of Amsterdam (NL) 
+
+
 
 ## Date & location 
 
