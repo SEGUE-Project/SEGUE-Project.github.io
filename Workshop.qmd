@@ -120,8 +120,14 @@ leaflet() %>%
   addProviderTiles(providers$CartoDB.Positron) %>%
  addCircleMarkers(
       lng = 4.3705259, lat = 52.0056562,
-    label = "TU Delft | Faculty of Architecture and the Built Environment",
-    radius = 17,
+    label = "TU Delft | Faculty of Architecture and the Built Environment | 9th Nov.",
+    radius = 10,
+    color = "#ff6600ff",
+    stroke = FALSE, fillOpacity = 0.5) %>%
+  addCircleMarkers(
+      lng = 4.3730109, lat = 52.0026415,
+    label = "TU Delft Library | 10-13th Nov.",
+    radius = 15,
     color = "#ff6600ff",
     stroke = FALSE, fillOpacity = 0.5)
 
