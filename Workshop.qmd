@@ -14,7 +14,7 @@ theme: united
 
 ## Summary
 
-In November 2026, [![](TUDelft.png){fig-align="left" width="60"}](https://www.tudelft.nl/) is hosting a workshop gathering members of the [![](logo.png){fig-align="left" width="50"}](http://erc-segue.nl/) project, members of [![](Logo_Rbanism_%20Full.png){fig-align="left" width="50"}](http://rbanism.org/) and external experts, to **identify and prioritise the methodological and technical developments needed to address new theoretical developments in the field of urban segregation (with R)**.
+In November 2026, [![](TUDelft.png){fig-align="left" width="60"}](https://www.tudelft.nl/) is hosting a workshop gathering members of the [![](logo.png){fig-align="left" width="50"}](http://erc-segue.nl/) project, members of [![](Logo_Rbanism_%20Full.png){fig-align="left" width="50"}](http://rbanism.org/) and external experts, to **identify and prioritise the methodological and technical developments needed to address big theoretical questions in the field of urban segregation (with R)**.
 
 ------------------------------------------------------------------------
 
