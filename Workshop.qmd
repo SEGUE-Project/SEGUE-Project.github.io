@@ -58,7 +58,7 @@ This workshop will be conducted over 5 days. The week switches from an initial f
 
 - Review talks: What are the temporal characteristics of urban segregation?
 - Code along crash course: visualising urban segregation
-- Site visit: Excursion to Rotterdam and Schiedam in relation to urban segregation.
+- Site visit: Excursion in relation to urban segregation.
 - Collective discussion: Avoiding the YARP syndrome (Yet Another R Package).
 - Social Moment: Workshop dinner
 
