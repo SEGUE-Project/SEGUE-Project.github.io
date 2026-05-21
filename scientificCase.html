@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>2026 Workshop: Updating urban segregation computation with R</title>
+<title>2026 Workshop</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -46,29 +46,17 @@ div.csl-indent {
 }</style>
 
 
-<script src="Workshop_files/libs/clipboard/clipboard.min.js"></script>
-<script src="Workshop_files/libs/quarto-html/quarto.js" type="module"></script>
-<script src="Workshop_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="Workshop_files/libs/quarto-html/popper.min.js"></script>
-<script src="Workshop_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="Workshop_files/libs/quarto-html/anchor.min.js"></script>
-<link href="Workshop_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="Workshop_files/libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="Workshop_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="Workshop_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="Workshop_files/libs/bootstrap/bootstrap-eeb5072725b83a3d2339e0264c232edd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="Workshop_files/libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
-<script src="Workshop_files/libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
-<script src="Workshop_files/libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-<link href="Workshop_files/libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
-<script src="Workshop_files/libs/leaflet-1.3.1/leaflet.js"></script>
-<link href="Workshop_files/libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
-<script src="Workshop_files/libs/proj4-2.6.2/proj4.min.js"></script>
-<script src="Workshop_files/libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
-<link href="Workshop_files/libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
-<script src="Workshop_files/libs/leaflet-binding-2.2.3/leaflet.js"></script>
-<script src="Workshop_files/libs/leaflet-providers-3.0.0/leaflet-providers.js"></script>
-<script src="Workshop_files/libs/leaflet-providers-plugin-2.2.3/leaflet-providers-plugin.js"></script>
+<script src="scientificCase_files/libs/clipboard/clipboard.min.js"></script>
+<script src="scientificCase_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="scientificCase_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="scientificCase_files/libs/quarto-html/popper.min.js"></script>
+<script src="scientificCase_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="scientificCase_files/libs/quarto-html/anchor.min.js"></script>
+<link href="scientificCase_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="scientificCase_files/libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="scientificCase_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="scientificCase_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="scientificCase_files/libs/bootstrap/bootstrap-eeb5072725b83a3d2339e0264c232edd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 
 
 </head>
@@ -81,20 +69,9 @@ div.csl-indent {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary">Summary</a></li>
-  <li><a href="#form" id="toc-form" class="nav-link" data-scroll-target="#form">Registration (before 2026-06-30)</a></li>
-  <li><a href="#program" id="toc-program" class="nav-link" data-scroll-target="#program">Programme</a>
-  <ul class="collapse">
-  <li><a href="#day-1.-forming-community-over-a-common-goal" id="toc-day-1.-forming-community-over-a-common-goal" class="nav-link" data-scroll-target="#day-1.-forming-community-over-a-common-goal">Day 1. Forming community over a common goal</a></li>
-  <li><a href="#day-2.-finding-consensus-over-the-communitys-needs" id="toc-day-2.-finding-consensus-over-the-communitys-needs" class="nav-link" data-scroll-target="#day-2.-finding-consensus-over-the-communitys-needs">Day 2. Finding consensus over the community’s needs</a></li>
-  <li><a href="#day-3.-switching-from-analysis-to-design" id="toc-day-3.-switching-from-analysis-to-design" class="nav-link" data-scroll-target="#day-3.-switching-from-analysis-to-design">Day 3. Switching from analysis to design</a></li>
-  <li><a href="#day-4.-r-package-design" id="toc-day-4.-r-package-design" class="nav-link" data-scroll-target="#day-4.-r-package-design">Day 4. R package design</a></li>
-  <li><a href="#day-5.-preparing-the-follow-up" id="toc-day-5.-preparing-the-follow-up" class="nav-link" data-scroll-target="#day-5.-preparing-the-follow-up">Day 5. Preparing the follow-up</a></li>
-  </ul></li>
-  <li><a href="#team" id="toc-team" class="nav-link" data-scroll-target="#team">Organizing team and confirmed partipants</a></li>
-  <li><a href="#date-location" id="toc-date-location" class="nav-link" data-scroll-target="#date-location">Date &amp; location</a></li>
-  <li><a href="#fund" id="toc-fund" class="nav-link" data-scroll-target="#fund">Funding and bursaries</a></li>
-  <li><a href="#case" id="toc-case" class="nav-link" data-scroll-target="#case">Scientific case</a></li>
+  <li><a href="#updating-urban-segregation-computation-with-r" id="toc-updating-urban-segregation-computation-with-r" class="nav-link active" data-scroll-target="#updating-urban-segregation-computation-with-r">Updating urban segregation computation with R</a></li>
+  <li><a href="#scientific-case" id="toc-scientific-case" class="nav-link" data-scroll-target="#scientific-case">Scientific case</a></li>
+  <li><a href="#expected-outcomes" id="toc-expected-outcomes" class="nav-link" data-scroll-target="#expected-outcomes">Expected outcomes</a></li>
   <li><a href="#publi-list" id="toc-publi-list" class="nav-link" data-scroll-target="#publi-list">References</a></li>
   </ul>
 </nav>
@@ -103,7 +80,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">2026 Workshop: Updating urban segregation computation with R</h1>
+<h1 class="title">2026 Workshop</h1>
 </div>
 
 
@@ -120,115 +97,13 @@ div.csl-indent {
 </header>
 
 
-<section id="summary" class="level2">
-<h2 class="anchored" data-anchor-id="summary">Summary</h2>
-<p>In November 2026, <a href="https://www.tudelft.nl/"><img src="TUDelft.png" class="img-fluid quarto-figure quarto-figure-left" width="60"></a> is hosting a workshop gathering members of the <a href="http://erc-segue.nl/"><img src="logo.png" class="img-fluid quarto-figure quarto-figure-left" width="50"></a> project, members of <a href="http://rbanism.org/"><img src="Logo_Rbanism_%20Full.png" class="img-fluid quarto-figure quarto-figure-left" width="50"></a> and external experts, to <strong>identify and prioritise the methodological and technical developments needed to address new theoretical developments in the field of urban segregation (with R)</strong>.</p>
-<hr>
-<p>During 5 days, we want to foster <strong>research discussions</strong> spanning the diversity of theories and approaches to urban segregation (in terms of location, scale and social attributes considered, as well as type of data used), create a <strong>community</strong> of urban scholars who can collaborate on frontier research projects, comparative analysis, theory and methodology development, but also prepare the development of an <strong>R package</strong> dedicated to assist with the selection of appropriate measures of urban segregation (a “routemap”), their computation, visualization and analysis necessary to tackle state-of-the-art research questions in the field of urban segregation.</p>
-<p>If you would like to be part of this event, please fill in the registration form <strong>before 30th June 2026</strong>. Admission results will be communicated at the end of August 2026. We expect to invite between 10 and 20 participants to this workshop.</p>
+<section id="updating-urban-segregation-computation-with-r" class="level2">
+<h2 class="anchored" data-anchor-id="updating-urban-segregation-computation-with-r">Updating urban segregation computation with R</h2>
+<p>During this 5 day <a href="https://erc-segue.nl/Workshop">workshop</a>, we want to foster <strong>research discussions</strong> spanning the diversity of theories and approaches to urban segregation (in terms of location, scale and social attributes considered, as well as type of data used), create a <strong>community</strong> of urban scholars who can collaborate on frontier research projects, comparative analysis, theory and methodology development, but also prepare the development of an <strong>R package</strong> dedicated to assist with the selection of appropriate measures of urban segregation (a “routemap”), their computation, visualization and analysis necessary to tackle state-of-the-art research questions in the field of urban segregation.</p>
+<p>If you would like to be part of this event, please fill in <a href="https://framaforms.org/workshop-updating-urban-segregation-computation-with-r-1777633857">the registration form</a> <strong>before 30th June 2026</strong>. Admission results will be communicated mid-July 2026. We expect to invite between 10 and 20 participants to this workshop.</p>
 </section>
-<section id="form" class="level2">
-<h2 class="anchored" data-anchor-id="form">Registration (before 2026-06-30)</h2>
-<iframe src="https://framaforms.org/workshop-updating-urban-segregation-computation-with-r-1777633857" width="100%" height="800" border="0">
-</iframe>
-</section>
-<section id="program" class="level2">
-<h2 class="anchored" data-anchor-id="program">Programme</h2>
-<p>This workshop will be conducted over 5 days. The week switches from an initial focus on getting to know each other and reaching consensus on needs of our community to a final focus on package design and development planning. During the workshop, we build each day on the previous one as follows:</p>
-<section id="day-1.-forming-community-over-a-common-goal" class="level3">
-<h3 class="anchored" data-anchor-id="day-1.-forming-community-over-a-common-goal">Day 1. Forming community over a common goal</h3>
-<ul>
-<li>Introductory overview: What are the aims of the workshop? What is the program of the week/day? What do we want to achieve.</li>
-<li>Speed dating: who are we? What do we bring to the workshop? what would we like to work on next in the field of urban segregation and what’s missing besides time and money? What are the unanswered questions due to lack of computation interest and skills in the field?</li>
-<li>Review talks: Why quantify urban segregation? What’s the current landscape of indicators and packages?</li>
-<li>Code along crash course: Comparing and interpreting the results of different segregation indices with existing packages.</li>
-<li>Panel discussion: What are the achievements and unanswered questions in urban economic segregation?</li>
-<li>Flash talks: what am I working on?</li>
-<li>Social moment: informal conversations over drinks and bites.</li>
-</ul>
-</section>
-<section id="day-2.-finding-consensus-over-the-communitys-needs" class="level3">
-<h3 class="anchored" data-anchor-id="day-2.-finding-consensus-over-the-communitys-needs">Day 2. Finding consensus over the community’s needs</h3>
-<ul>
-<li>Review talks: How to develop an R package for urban segregation?</li>
-<li>Code along crash course: Writing functions and computing indices</li>
-<li>Review talks: How to model urban segregation, including its spatial dimension?</li>
-<li>Code along crash course: (spatial) regression modelling with R</li>
-<li>Panel discussion: What are the specificities of different dimensions of urban segregation?</li>
-<li>Work groups: How are these specificities included in current R package landscape?</li>
-<li>Reporting moment: Coming up with a collective list of needs</li>
-</ul>
-</section>
-<section id="day-3.-switching-from-analysis-to-design" class="level3">
-<h3 class="anchored" data-anchor-id="day-3.-switching-from-analysis-to-design">Day 3. Switching from analysis to design</h3>
-<ul>
-<li>Review talks: What are the temporal characteristics of urban segregation?</li>
-<li>Code along crash course: visualising urban segregation</li>
-<li>Site visit: Excursion to Rotterdam and Schiedam in relation to urban segregation.</li>
-<li>Collective discussion: Avoiding the YARP syndrome (Yet Another R Package).</li>
-<li>Social Moment: Workshop dinner</li>
-</ul>
-</section>
-<section id="day-4.-r-package-design" class="level3">
-<h3 class="anchored" data-anchor-id="day-4.-r-package-design">Day 4. R package design</h3>
-<ul>
-<li>Panel discussion: What are the specificities of multi-layered and multi-scale urban segregation?</li>
-<li>Work groups: Defining the package requirements: 5 groups with distinct aspects of the tasks (indicators, spatial dimension, visualisation, interpretation and link to theory, perimeter of the package)</li>
-<li>Reporting moment: Coming up with a collective list of tests</li>
-<li>Code along crash course: test-driven development</li>
-<li>Collective discussion: How to keep this community together in the next few weeks/months?</li>
-<li>Social moment: informal conversations in small groups</li>
-</ul>
-</section>
-<section id="day-5.-preparing-the-follow-up" class="level3">
-<h3 class="anchored" data-anchor-id="day-5.-preparing-the-follow-up">Day 5. Preparing the follow-up</h3>
-<ul>
-<li>Work groups: A Developer group work on prioritizing functions to develop within the package. A User group work on defining the use cases (specificities, data availability, etc) to demonstrate the added-value of the package.</li>
-<li>Reporting moment: The two group report on their work and the whole group discuss the order of the lists of functions to develop and list of use cases</li>
-<li>Collective discussion: Defining roles, timelines and actions for the follow-up activities.</li>
-<li>Planning moment: Agreeing on a strategic roadmap for the package development, user plan and publication plan.</li>
-<li>Summary closing and goodbyes: informal closing over drinks and bites.</li>
-</ul>
-<hr>
-<p><strong>Post-workshop</strong>, we will implement the roadmap to complete the package, write its documentation and user manual. Using <a href="http://rbanism.org/"><img src="Logo_Rbanism_%20Full.png" class="img-fluid quarto-figure quarto-figure-left" width="50"></a>’s experience, <a href="http://erc-segue.nl/"><img src="logo.png" class="img-fluid quarto-figure quarto-figure-left" width="50"></a>’s funding and the co-organisers’ time and coordination efforts, the community will be brought together virtually at regular intervals, as well as in person for a final conference showcasing the package and its use cases.</p>
-</section>
-</section>
-<section id="team" class="level2">
-<h2 class="anchored" data-anchor-id="team">Organizing team and confirmed partipants</h2>
-<ul>
-<li><p><a href="https://research.tudelft.nl/en/persons/a-petrovi%C4%87/">Ana Petrovic</a>, Assistant Professor in urban studies at <a href="https://www.tudelft.nl/"><img src="TUDelft.png" class="img-fluid quarto-figure quarto-figure-left" width="60"></a> <a href="http://rbanism.org/"><img src="Logo_Rbanism_%20Full.png" class="img-fluid quarto-figure quarto-figure-left" width="30"></a></p></li>
-<li><p><a href="https://crh.ehess.fr/index.php?9040">Aurélie Douet</a>, Research engineer (GIS and mapping) at EHESS, France</p></li>
-<li><p><a href="https://cforgaci.github.io/">Claudiu Forgaci</a>, Assistant Professor in urban design at <a href="https://www.tudelft.nl/"><img src="TUDelft.png" class="img-fluid quarto-figure quarto-figure-left" width="60"></a> <a href="http://rbanism.org/"><img src="Logo_Rbanism_%20Full.png" class="img-fluid quarto-figure quarto-figure-left" width="30"></a></p></li>
-<li><p><a href="https://clementinecttn.github.io/">Clémentine Cottineau-Mugadza</a>, Assistant Professor in urban studies at <a href="https://www.tudelft.nl/"><img src="TUDelft.png" class="img-fluid quarto-figure quarto-figure-left" width="60"></a> <a href="http://rbanism.org/"><img src="Logo_Rbanism_%20Full.png" class="img-fluid quarto-figure quarto-figure-left" width="30"></a><a href="http://erc-segue.nl/"><img src="logo.png" class="img-fluid quarto-figure quarto-figure-left" width="30"></a></p></li>
-<li><p><a href="https://www.tudelft.nl/staff/d.cannatella/">Daniele Cannatella</a>, Assistant Professor in spatial data science at <a href="https://www.tudelft.nl/"><img src="TUDelft.png" class="img-fluid quarto-figure quarto-figure-left" width="60"></a> <a href="http://rbanism.org/"><img src="Logo_Rbanism_%20Full.png" class="img-fluid quarto-figure quarto-figure-left" width="30"></a></p></li>
-<li><p>Diego Buitrago Mora, Postdoctoral research in urban studies at <a href="https://www.tudelft.nl/"><img src="TUDelft.png" class="img-fluid quarto-figure quarto-figure-left" width="60"></a> <a href="http://erc-segue.nl/"><img src="logo.png" class="img-fluid quarto-figure quarto-figure-left" width="30"></a></p></li>
-<li><p><a href="https://www.tudelft.nl/staff/i.a.urriayanez/">Ignacio Urria Yáñez</a>, PhD Candidate in urban studies at <a href="https://www.tudelft.nl/"><img src="TUDelft.png" class="img-fluid quarto-figure quarto-figure-left" width="60"></a> <a href="http://rbanism.org/"><img src="Logo_Rbanism_%20Full.png" class="img-fluid quarto-figure quarto-figure-left" width="30"></a></p></li>
-<li><p><a href="https://javiersanmillan.github.io/">Javier San Millan Tejedor</a>, PhD Candidate in urban studies at <a href="https://www.tudelft.nl/"><img src="TUDelft.png" class="img-fluid quarto-figure quarto-figure-left" width="60"></a> <a href="http://rbanism.org/"><img src="Logo_Rbanism_%20Full.png" class="img-fluid quarto-figure quarto-figure-left" width="30"></a><a href="http://erc-segue.nl/"><img src="logo.png" class="img-fluid quarto-figure quarto-figure-left" width="30"></a></p></li>
-<li><p><a href="https://lisst.univ-tlse2.fr/home/julie-vallee">Julie Vallée</a>, Senior researcher at CNRS, LISST, France</p></li>
-<li><p><a href="https://jmigozzi.github.io/">Julien Migozzi</a>, Assistant Professor in Development Studies at University of Cambridge, UK</p></li>
-<li><p><a href="https://www.ljwolf.org/">Levi John Wolf</a>, Associate Professor of Spatial Analysis at the University of Bristol , UK</p></li>
-<li><p><a href="https://www.selcanmutgan.com/">Selcan Mutgan</a>, Assistant Professor at the Institute for Analytical Sociology in Linköping University, Sweden</p></li>
-<li><p><a href="https://khu.elsevierpure.com/en/persons/seong-yun-hong/">Seong-Yun Hong</a>, Associate Professor at Kyung Hee University, South Korea</p></li>
-<li><p><a href="https://www.uva.nl/en/profile/k/a/y.kazmina/y.kazmina.html">Yuliia Kazmina</a>, PhD candidate at the Faculty of Social and Behavioural Sciences, University of Amsterdam (NL)</p></li>
-</ul>
-</section>
-<section id="date-location" class="level2">
-<h2 class="anchored" data-anchor-id="date-location">Date &amp; location</h2>
-<p>The workshop will take place over 5 full days: <a href="https://github.com/SEGUE-Project/SEGUE-Project.github.io/blob/main/events.ics"><strong>9, 10, 11, 12 and 13 November 2026</strong></a>, at TU Delft, in the Netherlands.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div class="leaflet html-widget html-fill-item" id="htmlwidget-a3ba52a31b84e003be3c" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-a3ba52a31b84e003be3c">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"setView":[[52.0056562,4.3705259],9,[]],"calls":[{"method":"addProviderTiles","args":["CartoDB.Positron",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addCircleMarkers","args":[52.0056562,4.3705259,10,null,null,{"interactive":true,"className":"","stroke":false,"color":"#ff6600ff","weight":5,"opacity":0.5,"fill":true,"fillColor":"#ff6600ff","fillOpacity":0.5},null,null,null,null,"TU Delft | Faculty of Architecture and the Built Environment | 9th Nov.",{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addCircleMarkers","args":[52.0026415,4.3730109,15,null,null,{"interactive":true,"className":"","stroke":false,"color":"#ff6600ff","weight":5,"opacity":0.5,"fill":true,"fillColor":"#ff6600ff","fillOpacity":0.5},null,null,null,null,"TU Delft Library | 10-13th Nov.",{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[52.0026415,52.0056562],"lng":[4.3705259,4.3730109]}},"evals":[],"jsHooks":[]}</script>
-</div>
-</div>
-</section>
-<section id="fund" class="level2">
-<h2 class="anchored" data-anchor-id="fund">Funding and bursaries</h2>
-<p>The workshop itself is free (including catering and excursions), but participants are expected to cover their own travel and accommodation expenses. If your situation, position or institution does not allow you to fund your own travel and accommodation expenses, please indicate it on the registration form. Bursaries will be possible for up to 5 participants. The total capacity of the workshop is 30 participants.</p>
-<p>This workshop is funded by the ERC project <a href="http://erc-segue.nl/"><img src="logo.png" class="img-fluid quarto-figure quarto-figure-left" width="50"></a>, and hosted gratuitously by the <a href="https://www.tudelft.nl/en/architecture-and-the-built-environment"><img src="TUDelft.png" class="img-fluid quarto-figure quarto-figure-left" width="80"></a> Faculty of Architecture and the Built environment and the <a href="https://www.tudelft.nl/en/library/"><img src="TUDelft.png" class="img-fluid quarto-figure quarto-figure-left" width="80"></a> Library.</p>
-</section>
-<section id="case" class="level2">
-<h2 class="anchored" data-anchor-id="case">Scientific case</h2>
+<section id="scientific-case" class="level2">
+<h2 class="anchored" data-anchor-id="scientific-case">Scientific case</h2>
 <p>Urban segregation – i.e.&nbsp;the pattern of (geographical) separation between people of different social groups or economic levels – is a large component of the scientific program of urban sciences (geography, sociology, demography and economics). With dire consequences for social cohesion, economic mobility, but also health and education opportunities, urban segregation is a topic of renewed importance in a context of rising economic inequalities and uneven development. However, many questions about its causes, consequences and evolution persist: How does urban segregation relate to economic inequality? At which scale can urban planners best design more efficient policies to reduce urban segregation? What are the mechanisms through which some places produce better outcomes than others? Does segregation directly harm children in vulnerable families?</p>
 <p>Although urban segregation is as old as cities <span class="citation" data-cites="nightingale2012segregation">(<a href="#ref-nightingale2012segregation" role="doc-biblioref">Nightingale, 2012</a>)</span>, its scientific analysis and measurement can be traced back to the 20th century, with the development of the first segregation indices (cf. <span class="citation" data-cites="massey1988dimensions">(<a href="#ref-massey1988dimensions" role="doc-biblioref">Massey &amp; Denton, 1988</a>)</span> for the first review). Since then, methodological developments, technical jumps and the release of ever more detailed social data at increasingly fine grain have fostered the creation of dozens of new indices, to address the spatial dimension of segregation <span class="citation" data-cites="white1983measurement">(<a href="#ref-white1983measurement" role="doc-biblioref">White, 1983</a>)</span> <span class="citation" data-cites="morrill1991">(<a href="#ref-morrill1991" role="doc-biblioref">Morrill, 1991</a>)</span>, to consider multi-groups <span class="citation" data-cites="wong1998measuring">(<a href="#ref-wong1998measuring" role="doc-biblioref">Wong, 1998</a>)</span>, ordinal variables <span class="citation" data-cites="reardon2009measures">(<a href="#ref-reardon2009measures" role="doc-biblioref">Reardon, 2009</a>)</span> and to identify the sub-group components driving segregation. In a first review of the segregation index landscape, the organising team identified 30 distinct measures, along with their use case characteristics.</p>
 <p>To apply these measures empirically, researchers from European institutions have access to more and richer data nowadays, from register microdata (as in the Netherlands, one of the leading countries in their dissemination, but also Austria or Sweden) to granular census tract-based data on an annual basis (e.g.&nbsp;Spain). These rich sources of data represent an opportunity that has not yet been fully exploited, partly due to the substantial computational and coding requirements involved with their wrangling and analysis. On this technical front, websites, applications, dedicated software and packages have spurred to assist segregation scholars in computing segregation indices to describe the level and dimension of urban segregation, but few address the challenges of automation, reproducibility and scalability associated with the scientific approach. When they do, like the R packages <code>OasisR</code>, <code>seg</code>, <code>segregation</code>, <code>divseg</code>, <code>ineq</code> or <code>mutualinf</code>, multiple problems arise:</p>
@@ -245,13 +120,16 @@ div.csl-indent {
 <li>they do not consider multilayered attributes of segregation (i.e.&nbsp;the fact that economic groups are segregated differently from racial or ethnic groups, yet people have multiple identities and spatialities). This is particularly striking in the works on network segregation <span class="citation" data-cites="kazmina2024socio">(<a href="#ref-kazmina2024socio" role="doc-biblioref">Kazmina et al., 2024</a>)</span> and daytime segregation <span class="citation" data-cites="le2017social">(<a href="#ref-le2017social" role="doc-biblioref">Le Roux et al., 2017</a>)</span></li>
 <li>they do not consider the multiple scales at which segregation might arise, from local segregation in the streets around one’s home to large-scale segregation in metropolitan areas, and every level in between <span class="citation" data-cites="petrovic2018multiscale">(<a href="#ref-petrovic2018multiscale" role="doc-biblioref">Petrović et al., 2018</a>)</span>.</li>
 </ol>
+</section>
+<section id="expected-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="expected-outcomes">Expected outcomes</h2>
 <p>This workshop is meant to reach consensus on the current and most pressing needs of our community and team up with Seong-Yun Hong’s team (creator of the <code>seg</code> package) to update or recreate a segregation R package to complement the current offer. Writing a full package, with functions, tests, and documentation, is not realistic in 5 days. Rather, this workshop will be considered a success if we end up with:</p>
 <ol type="1">
-<li>an agreement on the most pressing needs of the community – OUTCOME1</li>
-<li>a list of tests (using test-driven development, we first address the requirements of the package in plain English before coding the functions) – OUTCOME2</li>
-<li>an ordered list of functions to develop – OUTCOME3</li>
-<li>a series of diverse use cases from all over the world, with associated data – OUTCOME4</li>
-<li>a roadmap for completing the work – OUTCOME5</li>
+<li>an agreement on the most pressing needs of the community</li>
+<li>a list of tests (using test-driven development, we first address the requirements of the package in plain English before coding the functions)</li>
+<li>an ordered list of functions to develop</li>
+<li>a series of diverse use cases from all over the world, with associated data</li>
+<li>a roadmap for completing the work</li>
 </ol>
 <p>To make sure these outcomes are achieved, the first part of the workshop is devoted to review the various aspects of the state of the art, namely the reasons for quantifying segregation, the pool of possible indices and methods for quantification, available technical tools, functions, methods and visualisations provided by existing software packages, the workflow of computational urban segregation studies, which includes quantification, (spatial) modelling and visualisation. By discussing these elements and running through available tools on R through code-along moments, we address the levelling of information and skills for a pool of diverse participants. The second part of the workshop addresses the R package design and development planning, with group sessions dedicated to different aspects (indicators to code, spatial component to add, interpretation guide, etc.) and different roles (developer vs.&nbsp;user). The last day is entirely dedicated to writing down the priority lists of tests, functions and use cases to develop, and to plan the next steps.</p>
 <p>In the weeks to follow, we will work on completing the package (developer group), write documentation and user manual, including diverse use cases (user group), and write two publications: one describing the package for a journal such as the <a href="https://joss.theoj.org/">Journal of Open Source Software</a>, and one the review exercise of this workshop, agenda-setting objective and scientific contribution of this package to urban segregation research, for a journal such as <a href="https://journals.sagepub.com/home/usj">Urban Studies</a>.</p>

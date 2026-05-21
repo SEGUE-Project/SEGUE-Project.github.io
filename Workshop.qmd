@@ -20,7 +20,9 @@ In November 2026, [![](TUDelft.png){fig-align="left" width="60"}](https://www.tu
 
 During 5 days, we want to foster **research discussions** spanning the diversity of theories and approaches to urban segregation (in terms of location, scale and social attributes considered, as well as type of data used), create a **community** of urban scholars who can collaborate on frontier research projects, comparative analysis, theory and methodology development, but also prepare the development of an **R package** dedicated to assist with the selection of appropriate measures of urban segregation (a “routemap”), their computation, visualization and analysis necessary to tackle state-of-the-art research questions in the field of urban segregation.
 
-If you would like to be part of this event, please fill in the registration form **before 30th June 2026**. Admission results will be communicated at the end of August 2026. We expect to invite between 10 and 20 participants to this workshop.
+If you would like to be part of this event, please fill in the registration form **before 30th June 2026**. Admission results will be communicated mid-July 2026. We expect to invite between 10 and 20 participants to this workshop.
+
+More on the scientific case can be read [here](https://erc-segue.nl/scientificCase).
 
 ## Registration (before 2026-06-30) {#form}
 
