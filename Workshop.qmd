@@ -42,7 +42,7 @@ This workshop will be conducted over 5 days. The week switches from an initial f
 - Code along crash course: Comparing and interpreting the results of different segregation indices with existing packages.
 - Panel discussion: What are the achievements and unanswered questions in urban economic segregation?
 - Flash talks: what am I working on?
-- Social moment: informal conversations over drinks and bites.
+- Social moment: informal conversations 
 
 ### Day 2. Finding consensus over the community’s needs
 
@@ -77,7 +77,7 @@ This workshop will be conducted over 5 days. The week switches from an initial f
 - Reporting moment: The two group report on their work and the whole group discuss the order of the lists of functions to develop and list of use cases
 - Collective discussion: Defining roles, timelines and actions for the follow-up activities.
 - Planning moment: Agreeing on a strategic roadmap for the package development, user plan and publication plan.
-- Summary closing and goodbyes: informal closing over drinks and bites.
+- Summary closing and goodbyes
 
 ------------------------------------------------------------------------
 
