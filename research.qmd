@@ -8,7 +8,7 @@ link-citations: true
 theme: united 
 ---
 
-SEGUE is a project about urban economic segregation: about understand which dynamic factors contribute to its persistence and how public policies can address is effectively. More specifically, we aspire to integrate multidisciplinary knowledge about economic inequality and urban segregation to better understand and counter the dynamics of economic segregation in cities. We aim to identify and model the main drivers of urban economic segregation to test and compare remediatory policies at three geographical scales: national, urban and individual.
+SEGUE is a project about urban economic segregation: about understanding which dynamic factors contribute to its persistence and how public policies can address is effectively. More specifically, we aspire to integrate multidisciplinary knowledge about economic inequality and urban segregation to better understand and counter the dynamics of economic segregation in cities. We aim to identify and model the main drivers of urban economic segregation to test and compare remediatory policies at three geographical scales: national, urban and individual.
 
 It is built around four objectives:
 
