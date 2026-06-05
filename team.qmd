@@ -61,6 +61,6 @@ Paulina joined SEGUE in February 2025 as a PhD researcher. Her research focuses 
 ::: {#refs}
 :::
 
------------
+------------------------------------------------------------------------
 
 [![](logo.png){fig-align="left" width="100"}](http://erc-segue.nl/)

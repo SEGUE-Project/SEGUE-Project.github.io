@@ -42,7 +42,7 @@ This workshop will be conducted over 5 days. The week switches from an initial f
 - Code along crash course: Comparing and interpreting the results of different segregation indices with existing packages.
 - Panel discussion: What are the achievements and unanswered questions in urban economic segregation?
 - Flash talks: what am I working on?
-- Social moment: informal conversations 
+- Social moment: informal conversations
 
 ### Day 2. Finding consensus over the community’s needs
 
@@ -144,4 +144,3 @@ leaflet() %>%
 The workshop itself is free (including catering and excursions), but participants are expected to cover their own travel and accommodation expenses. If your situation, position or institution does not allow you to fund your own travel and accommodation expenses, please indicate it on the registration form. Bursaries will be possible for up to 5 participants. The total capacity of the workshop is 30 participants.
 
 This workshop is funded by the ERC project [![](logo.png){fig-align="left" width="50"}](http://erc-segue.nl/), and hosted gratuitously by the [![](TUDelft.png){fig-align="left" width="80"}](https://www.tudelft.nl/en/architecture-and-the-built-environment) Faculty of Architecture and the Built environment and the [![](TUDelft.png){fig-align="left" width="80"}](https://www.tudelft.nl/en/library/) Library.
-
