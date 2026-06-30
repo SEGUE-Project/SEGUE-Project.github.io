@@ -58,8 +58,8 @@ This workshop will be conducted over 5 days. The week switches from an initial f
 
 - Review talks: What are the temporal characteristics of urban segregation?
 - Code along crash course: visualising urban segregation
-- Site visit: Excursion in relation to urban segregation.
 - Collective discussion: Avoiding the YARP syndrome (Yet Another R Package).
+- Excursion to Fenix-Rotterdam: a new art museum about migration.
 - Social Moment: Workshop dinner
 
 ### Day 4. R package design
@@ -141,6 +141,6 @@ leaflet() %>%
 
 ## Funding and bursaries {#fund}
 
-The workshop itself is free (including catering and excursions), but participants are expected to cover their own travel and accommodation expenses. If your situation, position or institution does not allow you to fund your own travel and accommodation expenses, please indicate it on the registration form. Bursaries will be possible for up to 5 participants. The total capacity of the workshop is 30 participants.
+The workshop itself is free (including catering and excursions), but participants are expected to cover their own travel and accommodation expenses (check the [Social Hub](https://www.thesocialhub.co/current-promotions/book-direct-deal/?utm_source=google&utm_medium=cpc&utm_campaign=hot_all00_book-direct_b2c&utm_content=nld-en&utm_source_platform=brand&utm_creative_format=text&utm_marketing_tactic=convert&gad_source=1&gad_campaignid=23807824256&gbraid=0AAAAADNotMvqsHGBcL8qYvnDZXp8o5s4h&gclid=Cj0KCQjw3K7RBhDJARIsAKRtP5TJWNp1hRP6Yf9IQ7D7T_uO5y6SuGb-QEZRZP6c8g7j89tfukmNC64aAleZEALw_wcB) Delft for affordable options). If your situation, position or institution does not allow you to fund your own travel and accommodation expenses, please indicate it on the registration form. Bursaries will be possible for up to 5 participants. The total capacity of the workshop is 30 participants.
 
 This workshop is funded by the ERC project [![](logo.png){fig-align="left" width="50"}](http://erc-segue.nl/), and hosted gratuitously by the [![](TUDelft.png){fig-align="left" width="80"}](https://www.tudelft.nl/en/architecture-and-the-built-environment) Faculty of Architecture and the Built environment and the [![](TUDelft.png){fig-align="left" width="80"}](https://www.tudelft.nl/en/library/) Library.
