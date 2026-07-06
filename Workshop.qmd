@@ -95,8 +95,6 @@ This workshop will be conducted over 5 days. The week switches from an initial f
 
 - [Daniele Cannatella](https://www.tudelft.nl/staff/d.cannatella/), Assistant Professor in spatial data science at [![](TUDelft.png){fig-align="left" width="60"}](https://www.tudelft.nl/) [![](Logo_Rbanism_%20Full.png){fig-align="left" width="30"}](http://rbanism.org/)
 
-- Diego Buitrago Mora, Postdoctoral research in urban studies at [![](TUDelft.png){fig-align="left" width="60"}](https://www.tudelft.nl/) [![](logo.png){fig-align="left" width="30"}](http://erc-segue.nl/)
-
 - [Ignacio Urria Yáñez](https://www.tudelft.nl/staff/i.a.urriayanez/), PhD Candidate in urban studies at [![](TUDelft.png){fig-align="left" width="60"}](https://www.tudelft.nl/) [![](Logo_Rbanism_%20Full.png){fig-align="left" width="30"}](http://rbanism.org/)
 
 - [Javier San Millan Tejedor](https://javiersanmillan.github.io/), PhD Candidate in urban studies at [![](TUDelft.png){fig-align="left" width="60"}](https://www.tudelft.nl/) [![](Logo_Rbanism_%20Full.png){fig-align="left" width="30"}](http://rbanism.org/)[![](logo.png){fig-align="left" width="30"}](http://erc-segue.nl/)
