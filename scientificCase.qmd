@@ -42,8 +42,8 @@ This workshop comes at a point where the toolbox available in R to conduct resea
 
 This workshop is meant to reach consensus on the current and most pressing needs of our community and team up with Seong-Yun Hong’s team (creator of the `seg` package) to update or recreate a segregation R package to complement the current offer. Writing a full package, with functions, tests, and documentation, is not realistic in 5 days. Rather, this workshop will be considered a success if we end up with:
 
-1.  an agreement on the most pressing needs of the community 
-2.  a list of tests (using test-driven development, we first address the requirements of the package in plain English before coding the functions) 
+1.  an agreement on the most pressing needs of the community
+2.  a list of tests (using test-driven development, we first address the requirements of the package in plain English before coding the functions)
 3.  an ordered list of functions to develop
 4.  a series of diverse use cases from all over the world, with associated data
 5.  a roadmap for completing the work

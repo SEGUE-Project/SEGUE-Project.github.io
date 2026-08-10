@@ -12,6 +12,8 @@ theme: united
 
 ## Most recent {#publi-recent}
 
+- [@san2026inequality]: This article addresses the social housing mediation between economic inequality and income-based urban segregation. It focuses on the Netherlands, where residential access to social housing is partially insulated from market mechanisms and shaped instead by institutional allocation rules. Using longitudinal microdata for all Dutch municipalities between 2011 and 2024, we examine how the size, spatial distribution and socio-economic composition of the social housing sector condition urban segregation patterns. Our results show that social housing can substantially reduce segregation when it is broadly accessible across income groups and spatially integrated within cities. By contrast, when social housing is both geographically concentrated and socially residualized, segregation is significantly higher. Under the most favourable social-housing configurations, predicted segregation levels are one third lower than under the least favourable ones, even at identical levels of economic inequality. 
+
 - [@cottineau2026rethinking]: This is a review of the book "Rethinking Spatial Inequality", by Linda M. Lobao and Gregory Hooks.
 
 - [@cottineau2025agent]: In this article, we model the social effect of urban segregation ‘around the clock’ on health behaviours (such as the choice of a healthy diet). We do so using an empirical agent-based model initialised on the Paris region with a synthetic population and a combination of scenarios of residential patterns (random allocation vs. census-based allocation reflecting the empirical level of residential segregation) with scenarios of daily mobility (no daily moves, random moves or survey-based daily moves reflecting the empirical level of daytime segregation in Paris). We find an increase in the uptake of healthy behaviours in all scenarios, but contrasted results with respect to social inequalities.
@@ -26,7 +28,7 @@ theme: united
 
 - on theories of urban inequality and segregation, literature reviews and the history of urban models: [@cottineau2024unforeseen] [@sarkar2024spatial] [@cottineau2024accommodating] [@SLRbanismWorkingPaper] [@cottineau2025agent] [@cottineau2025economic]
 
-- on empirical patterns of inequality and segregation [@askenazy2024geography] [@san_millan_economic_2025] [@javiDiscrimination] [@sanmillan2025wealth] [@cottineau2025agent]
+- on empirical patterns of inequality and segregation [@askenazy2024geography] [@san_millan_economic_2025] [@javiDiscrimination] [@sanmillan2025wealth] [@cottineau2025agent] [@san2026inequality]
 
 - on Agent-based modelling: [@achter2024conduct] [@cottineau2025agent] [@roxburg2025outlining]
 
