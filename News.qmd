@@ -10,19 +10,22 @@ link-citations: true
 
 ## Future events
 
+- On 19 May 2026, Clémentine will giving a keynote "inspirational talk" at the Social Simulation FesT 2026 online. More information about the conference [here](https://essa.eu.org/social-simulation-fest-2026/). Find the presentation here: [Synthetic populations, synthetic cities and the spatio-temporal effects of urban inequality and segregation](https://clementinecttn.github.io/SimSocFest2026/SimSocFest2026_Cottineau).
+
+
 - In July 2026, Javi will be presenting his work at the RC21 Conference 2026 in Vienna (AT). More information about the conference [here](https://www.rc21.org/en/2026-rc21-conference-in-vienna/)
 
-- In September 2026, Javi and Clémentine will be presenting their work at the Royal Geographical Society Annual Meeting 2026 in London (UK). More information about the conference [here](https://www.rgs.org/research/annual-international-conference).
-
-- In November 2026, SEGUE is organising its first international workshop: "Updating urban segregation computation with R" in Delft, NL. More info: [erc-segue.nl/Workshop](https://erc-segue.nl/Workshop)
+- In September 2026, Javi and Clémentine will be presenting their work at the Royal Geographical Society Annual Meeting 2026 in London (UK). More information about the conference [here](https://www.rgs.org/research/annual-international-conference)
 
 ## Recent publications
-
-- **July 2026** [@san2026inequality]: This article addresses the social housing mediation between economic inequality and income-based urban segregation. It focuses on the Netherlands, where residential access to social housing is partially insulated from market mechanisms and shaped instead by institutional allocation rules. Using longitudinal microdata for all Dutch municipalities between 2011 and 2024, we examine how the size, spatial distribution and socio-economic composition of the social housing sector condition urban segregation patterns. Our results show that social housing can substantially reduce segregation when it is broadly accessible across income groups and spatially integrated within cities. By contrast, when social housing is both geographically concentrated and socially residualized, segregation is significantly higher. Under the most favourable social-housing configurations, predicted segregation levels are one third lower than under the least favourable ones, even at identical levels of economic inequality.
 
 - **January 2026** [@cottineau2026rethinking]: This is a review of the book "Rethinking Spatial Inequality", by Linda M. Lobao and Gregory Hooks.
 
 - **December 2025** [@cottineau2025agent]: In this article, we model the social effect of urban segregation ‘around the clock’ on health behaviours (such as the choice of a healthy diet). We do so using an empirical agent-based model initialised on the Paris region with a synthetic population and a combination of scenarios of residential patterns (random allocation vs. census-based allocation reflecting the empirical level of residential segregation) with scenarios of daily mobility (no daily moves, random moves or survey-based daily moves reflecting the empirical level of daytime segregation in Paris). We find an increase in the uptake of healthy behaviours in all scenarios, but contrasted results with respect to social inequalities.
+
+- **November 2025** [@cottineau2025economic]: In this article, we review multilingual and multidisciplinary strands of literature on the causal pathways between economic inequality and economic segregation. We highlight the importance of temporality in the reverse causality between the two concepts. We also advocate for up-to-date comparable indices, new and diverse case studies, especially from unequal and segregated cities from non-dominant countries and a mutual awareness between empirical and theoretical research.
+
+- **October 2025** [@sanmillan2025wealth]: In this article, we explore how the spatiotemporal patterns of affluence and poverty differ when considering wealth versus income. By analyzing geo-coded microdata from the Netherlands, we show that wealth segregation is much higher than income segregation; that financial wealth is more unequally distributed than real estate wealth across society, but is more equally distributed across space; that wealth segregation is more sensitive to the spatial scale of measurement than income segregation; that income segregation is decreasing in most urban areas whereas wealth segregation is rising almost everywhere in the Netherlands.
 
 ## References
 

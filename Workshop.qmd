@@ -14,80 +14,109 @@ theme: united
 
 ## Summary
 
-In November 2026, [![](TUDelft.png){fig-align="left" width="60"}](https://www.tudelft.nl/) is hosting a workshop gathering members of the [![](logo.png){fig-align="left" width="50"}](http://erc-segue.nl/) project, members of [![](Logo_Rbanism_%20Full.png){fig-align="left" width="50"}](http://rbanism.org/) and external experts, to **identify and prioritise the methodological and technical developments needed to address big theoretical questions in the field of urban segregation (with R)**.
+[![](TUDelft.png){fig-align="left" width="60"}](https://www.tudelft.nl/), [![](logo.png){fig-align="left" width="50"}](http://erc-segue.nl/) and [![](Logo_Rbanism_%20Full.png){fig-align="left" width="50"}](http://rbanism.org/) are gathering computational segregation experts between November 9th to November 13th 2026 to **identify and prioritise the methodological and technical developments needed to address big theoretical questions in the field of urban segregation (with R)**, through research discussions spanning the diversity of theories and approaches to urban segregation (in terms of location, scale and social attributes considered, as well as type of data used).
 
-------------------------------------------------------------------------
+With this 5-day workshop, we have the objective to:
 
-During 5 days, we want to foster **research discussions** spanning the diversity of theories and approaches to urban segregation (in terms of location, scale and social attributes considered, as well as type of data used), create a **community** of urban scholars who can collaborate on frontier research projects, comparative analysis, theory and methodology development, but also prepare the development of an **R package** dedicated to assist with the selection of appropriate measures of urban segregation (a “routemap”), their computation, visualization and analysis necessary to tackle state-of-the-art research questions in the field of urban segregation.
+1.  create a robust **community** of urban scholars involved in comparative analysis, theory and methodology development in the field of urban segregation;
+2.  prepare the development of a new **R package** dedicated to assist with the selection of appropriate measures of urban segregation (a “routemap”), their computation, visualization and analysis necessary to tackle state-of-the-art research questions in the field of urban segregation.
 
-If you would like to be part of this event, please fill in the registration form **before 30th June 2026**. Admission results will be communicated mid-July 2026. We expect to invite between 10 and 20 participants to this workshop.
+The full scientific case for this initiative can be read [here](https://erc-segue.nl/scientificCase).
 
-More on the scientific case can be read [here](https://erc-segue.nl/scientificCase).
+## Program {#program}
 
-## Registration (before 2026-06-30) {#form}
+![](fig/program.png)
 
-<iframe src="https://framaforms.org/workshop-updating-urban-segregation-computation-with-r-1777633857" width="100%" height="800" border="0">
+This workshop has been meticulously prepared by an [organising team of 13 scholars](https://erc-segue.nl/Workshop#organising) from the Netherlands, UK, France, South Korea and Sweden to provide the social, intellectual and technical infrastructure to prepare for collaboration between [25 experts](https://erc-segue.nl/Workshop#participants) from all over the world during the workshop.
 
-</iframe>
-
-## Programme {#program}
-
-This workshop will be conducted over 5 days. The week switches from an initial focus on getting to know each other and reaching consensus on needs of our community to a final focus on package design and development planning. During the workshop, we build each day on the previous one as follows:
-
-### Day 1. Forming community over a common goal
-
-- Introductory overview: What are the aims of the workshop? What is the program of the week/day? What do we want to achieve.
-- Speed dating: who are we? What do we bring to the workshop? what would we like to work on next in the field of urban segregation and what’s missing besides time and money? What are the unanswered questions due to lack of computation interest and skills in the field?
-- Review talks: Why quantify urban segregation? What’s the current landscape of indicators and packages?
-- Code along crash course: Comparing and interpreting the results of different segregation indices with existing packages.
-- Panel discussion: What are the achievements and unanswered questions in urban economic segregation?
-- Flash talks: what am I working on?
-- Social moment: informal conversations
-
-### Day 2. Finding consensus over the community’s needs
-
-- Review talks: How to develop an R package for urban segregation?
-- Code along crash course: Writing functions and computing indices
-- Review talks: How to model urban segregation, including its spatial dimension?
-- Code along crash course: (spatial) regression modelling with R
-- Panel discussion: What are the specificities of different dimensions of urban segregation?
-- Work groups: How are these specificities included in current R package landscape?
-- Reporting moment: Coming up with a collective list of needs
-
-### Day 3. Switching from analysis to design
-
-- Review talks: What are the temporal characteristics of urban segregation?
-- Code along crash course: visualising urban segregation
-- Collective discussion: Avoiding the YARP syndrome (Yet Another R Package).
-- Excursion to Fenix-Rotterdam: a new art museum about migration.
-- Social Moment: Workshop dinner
-
-### Day 4. R package design
-
-- Panel discussion: What are the specificities of multi-layered and multi-scale urban segregation?
-- Work groups: Defining the package requirements: 5 groups with distinct aspects of the tasks (indicators, spatial dimension, visualisation, interpretation and link to theory, perimeter of the package)
-- Reporting moment: Coming up with a collective list of tests
-- Code along crash course: test-driven development
-- Collective discussion: How to keep this community together in the next few weeks/months?
-- Social moment: informal conversations in small groups
-
-### Day 5. Preparing the follow-up
-
-- Work groups: A Developer group work on prioritizing functions to develop within the package. A User group work on defining the use cases (specificities, data availability, etc) to demonstrate the added-value of the package.
-- Reporting moment: The two group report on their work and the whole group discuss the order of the lists of functions to develop and list of use cases
-- Collective discussion: Defining roles, timelines and actions for the follow-up activities.
-- Planning moment: Agreeing on a strategic roadmap for the package development, user plan and publication plan.
-- Summary closing and goodbyes
-
-------------------------------------------------------------------------
+To make sure that our group is able to map and prioritize the most pressing needs of the community, identify the list of tests and case study to develop and evaluate the functions included in the package, the **first part of the workshop** is devoted to review the various aspects of the state of the art, namely the reasons for quantifying segregation, the pool of possible indices and methods for quantification, available technical tools, functions, methods and visualisations provided by existing software packages, the workflow of computational urban segregation studies, which includes quantification, (spatial) modelling and visualisation. By discussing these elements and running through available tools on R through code-along moments, we address the levelling of information and skills for a pool of diverse participants. The **second part of the workshop** addresses the R package design and development planning, with group sessions dedicated to different aspects (indicators to code, spatial component to add, documentation and case study guide, etc.) and different roles (developer, user and interface).
 
 **Post-workshop**, we will implement the roadmap to complete the package, write its documentation and user manual. Using [![](Logo_Rbanism_%20Full.png){fig-align="left" width="50"}](http://rbanism.org/)’s experience, [![](logo.png){fig-align="left" width="50"}](http://erc-segue.nl/)’s funding and the co-organisers’ time and coordination efforts, the community will be brought together virtually at regular intervals, as well as in person for a final conference showcasing the package and its use cases.
 
-## Organizing team and confirmed partipants {#team}
+
+## Workshop partipants {#participants}
+
+1.  [Adrian Nowacki](https://github.com/Adrian-Nowacki), PhD Student, Doctoral School of Natural Sciences, Adam Mickiewicz University in Poznań, Poland.
+2.  [Alok Kumar](https://github.com/Alok-Kumar-JNU), PhD Candidate, Jawaharlal Nehru University New Delhi, India.
+3.  [Ana Petrović](https://github.com/ana-5r), Assistant Professor in urban studies at TU Delft, NL.
+4.  [Benjamin Jarvis](https://github.com/bfjarvis), Associate Professor, Institute for Analytical Sociology, Linköping University, Sweden.
+5.  [Benjamin Rosche](https://github.com/benrosche), Assistant Professor of Computational Social Science, New York University Abu Dhabi, Abu Dhabi.
+6.  [Claudiu Forgaci](https://github.com/cforgaci), Assistant Professor in urban design and analytics at TU Delft, NL.
+7.  [Clémentine Cottineau-Mugadza](https://github.com/ClementineCttn), Assistant Professor in urban studies at TU Delft, NL.
+8.  [Daniele Cannatella](https://github.com/dcannatella), Assistant Professor in spatial data science at Delft, NL.
+9.  [Giuliana La Mantia](https://github.com/giulianalm9), Post-doc researcher at University of Genoa, Italy.
+10. [Guilherme Kenjy Chihaya Da Silva](https://github.com/chihayakenji), Associate Professor, Nord University, Faculty of Social Sciences, Norway.
+11. [Ignacio Urria Yáñez](https://github.com/iurriayanez), PhD Candidate in urban studies at Delft, NL.
+12. [Javier San Millan Tejedor](https://github.com/javiersanmillan), PhD Candidate in urban studies at Delft, NL.
+13. [Jiannis Kaucic](https://github.com/jkaucic), Scientific Staff (Praedoc) at the Institute for Urban and Regional Research (ÖAW), Austria.
+14. [Julie Vallée](https://github.com/JulieVallee), Senior researcher at CNRS, LISST, France. 
+15. [Julien Migozzi](https://github.com/jmigozzi), Assistant Professor in Development Studies at University of Cambridge, UK.
+16. [Juta Kawalerowicz](https://github.com/jkawalerowicz), Lecturer at Stokholm University, Sweden.
+17. [Karina Trelles](https://github.com/ktrelles), Master student at University of Brescia, Italy.
+18. [Nadeem Ullah](https://github.com/naddmm), Postdoctoral Researcher, School of Architecture, Tianjin University, China.
+19. [Onur Tumturk](https://github.com/onurtumturk), Marie Curie Postdoc, Bilkent University, Turkey.
+20. [Onyinyechi Gift Ossai](https://github.com/onyinyechi-ossai123), Senior Lecturer/University of Nigeria, Nsukka, Nigeria.
+21. [Priyanka deSouza](https://github.com/pdez90), Assistant Professor, University of Colorado Denver, USA.
+22. [Selcan Mutgan](https://github.com/selcanm), Assistant Professor at the Institute for Analytical Sociology in Linköping University, Sweden.
+23. [Seong-Yun Hong](https://github.com/syunhong), Associate Professor at Kyung Hee University, South Korea.
+24. [Timothee Giraud](https://github.com/rcarto), Research engineer at CNRS, UAR RIATE - Center for spatial analysis and geovizualisation, France.
+25. [Yuliia Kazmina](https://github.com/yuliia-ka), PhD candidate at the Faculty of Social and Behavioural Sciences, University of Amsterdam, NL.
+
+## Date & location
+
+The workshop will take place over 5 full days: [**9, 10, 11, 12 and 13 November 2026**](https://github.com/SEGUE-Project/SEGUE-Project.github.io/blob/main/events.ics), at TU Delft, in the Netherlands.
+
+- On 9th November 2026, we are hosted by the Faculty of Architecture and the Built Environment of TU Delft, Berlage Zaal, Building 8, Julianalaan 134, 2628 BL Delft, NL.
+- On 10th, 11 th, 12th and 13th November 2026, we will be at the TU Delft Library, Orange room, Building 21, Prometheusplein 1, 2628 ZC Delft, NL.
+
+```{r, echo=FALSE}
+library(leaflet)
+
+leaflet() %>% 
+  setView(4.4, 51.95, 11) %>%
+  addTiles() %>%
+ addCircleMarkers(
+      lng = 4.4816212, lat = 51.9021532,
+    label = "FENIX Museum | 11th Nov.",
+    radius = 10,
+    color = "#00A99D",
+    stroke = FALSE, fillOpacity = 0.5) %>%
+  addCircleMarkers(
+      lng = 4.4849081, lat = 51.9018146,
+    label = "Workshop dinner | 11th Nov.",
+    radius = 10,
+    color = "#00A99D",
+    stroke = FALSE, fillOpacity = 0.5) %>%
+  addCircleMarkers(
+      lng = 4.3705259, lat = 52.0056562,
+    label = "TU Delft | Faculty of Architecture and the Built Environment | 9th Nov.",
+    radius = 10,
+    color = "#ff6600ff",
+    stroke = FALSE, fillOpacity = 0.5) %>%
+  addCircleMarkers(
+      lng = 4.3730109, lat = 52.0026415,
+    label = "TU Delft Library | 10-13th Nov.",
+    radius = 10,
+    color = "#ff6600ff",
+    stroke = FALSE, fillOpacity = 0.5)
+
+
+```
+
+## Open Science & funding {#fund}
+
+This is an **open source** project.
+
+Preparation materials and upcoming contributions are hosted on [github.com/SEGUE-Project/2026Workshop](https://github.com/SEGUE-Project/2026Workshop) using two licenses:
+
+- Apache License 2.0. for Code (R source, tests, and other software)
+- Creative Commons Attribution 4.0 International (CC BY 4.0) for workshop materials and outputs (data, presentations, notebooks, prose, figures, and other non-code content)
+
+The workshop is free for selected participants. It is **funded** by the European Research Council (ERC) 101039455 Starting Grant Project [![](logo.png){fig-align="left" width="50"}](http://erc-segue.nl/), and hosted gratuitously by the [![](TUDelft.png){fig-align="left" width="80"}](https://www.tudelft.nl/en/architecture-and-the-built-environment) Faculty of Architecture and the Built environment and the [![](TUDelft.png){fig-align="left" width="80"}](https://www.tudelft.nl/en/library/) Library.
+
+## Organizing team {#organising}
 
 - [Ana Petrovic](https://research.tudelft.nl/en/persons/a-petrovi%C4%87/), Assistant Professor in urban studies at [![](TUDelft.png){fig-align="left" width="60"}](https://www.tudelft.nl/) [![](Logo_Rbanism_%20Full.png){fig-align="left" width="30"}](http://rbanism.org/)
-
-- [Aurélie Douet](https://crh.ehess.fr/index.php?9040), Research engineer (GIS and mapping) at EHESS, France
 
 - [Claudiu Forgaci](https://cforgaci.github.io/), Assistant Professor in urban design at [![](TUDelft.png){fig-align="left" width="60"}](https://www.tudelft.nl/) [![](Logo_Rbanism_%20Full.png){fig-align="left" width="30"}](http://rbanism.org/)
 
@@ -110,35 +139,3 @@ This workshop will be conducted over 5 days. The week switches from an initial f
 - [Seong-Yun Hong](https://khu.elsevierpure.com/en/persons/seong-yun-hong/), Associate Professor at Kyung Hee University, South Korea
 
 - [Yuliia Kazmina](https://www.uva.nl/en/profile/k/a/y.kazmina/y.kazmina.html), PhD candidate at the Faculty of Social and Behavioural Sciences, University of Amsterdam (NL)
-
-## Date & location
-
-The workshop will take place over 5 full days: [**9, 10, 11, 12 and 13 November 2026**](https://github.com/SEGUE-Project/SEGUE-Project.github.io/blob/main/events.ics), at TU Delft, in the Netherlands.
-
-```{r, echo=FALSE}
-library(leaflet)
-
-leaflet() %>% 
-  setView(4.3705259, 52.0056562, 9) %>%
-  addProviderTiles(providers$CartoDB.Positron) %>%
- addCircleMarkers(
-      lng = 4.3705259, lat = 52.0056562,
-    label = "TU Delft | Faculty of Architecture and the Built Environment | 9th Nov.",
-    radius = 10,
-    color = "#ff6600ff",
-    stroke = FALSE, fillOpacity = 0.5) %>%
-  addCircleMarkers(
-      lng = 4.3730109, lat = 52.0026415,
-    label = "TU Delft Library | 10-13th Nov.",
-    radius = 15,
-    color = "#ff6600ff",
-    stroke = FALSE, fillOpacity = 0.5)
-
-
-```
-
-## Funding and bursaries {#fund}
-
-The workshop itself is free (including catering and excursions), but participants are expected to cover their own travel and accommodation expenses (check the [Social Hub](https://www.thesocialhub.co/current-promotions/book-direct-deal/?utm_source=google&utm_medium=cpc&utm_campaign=hot_all00_book-direct_b2c&utm_content=nld-en&utm_source_platform=brand&utm_creative_format=text&utm_marketing_tactic=convert&gad_source=1&gad_campaignid=23807824256&gbraid=0AAAAADNotMvqsHGBcL8qYvnDZXp8o5s4h&gclid=Cj0KCQjw3K7RBhDJARIsAKRtP5TJWNp1hRP6Yf9IQ7D7T_uO5y6SuGb-QEZRZP6c8g7j89tfukmNC64aAleZEALw_wcB) Delft for affordable options). If your situation, position or institution does not allow you to fund your own travel and accommodation expenses, please indicate it on the registration form. Bursaries will be possible for up to 5 participants. The total capacity of the workshop is 30 participants.
-
-This workshop is funded by the ERC project [![](logo.png){fig-align="left" width="50"}](http://erc-segue.nl/), and hosted gratuitously by the [![](TUDelft.png){fig-align="left" width="80"}](https://www.tudelft.nl/en/architecture-and-the-built-environment) Faculty of Architecture and the Built environment and the [![](TUDelft.png){fig-align="left" width="80"}](https://www.tudelft.nl/en/library/) Library.
