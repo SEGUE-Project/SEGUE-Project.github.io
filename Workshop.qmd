@@ -33,7 +33,6 @@ To make sure that our group is able to map and prioritize the most pressing need
 
 **Post-workshop**, we will implement the roadmap to complete the package, write its documentation and user manual. Using [![](Logo_Rbanism_%20Full.png){fig-align="left" width="50"}](http://rbanism.org/)’s experience, [![](logo.png){fig-align="left" width="50"}](http://erc-segue.nl/)’s funding and the co-organisers’ time and coordination efforts, the community will be brought together virtually at regular intervals, as well as in person for a final conference showcasing the package and its use cases.
 
-
 ## Workshop partipants {#participants}
 
 1.  [Adrian Nowacki](https://github.com/Adrian-Nowacki), PhD Student, Doctoral School of Natural Sciences, Adam Mickiewicz University in Poznań, Poland.
@@ -49,10 +48,10 @@ To make sure that our group is able to map and prioritize the most pressing need
 11. [Ignacio Urria Yáñez](https://github.com/iurriayanez), PhD Candidate in urban studies at Delft, NL.
 12. [Javier San Millan Tejedor](https://github.com/javiersanmillan), PhD Candidate in urban studies at Delft, NL.
 13. [Jiannis Kaucic](https://github.com/jkaucic), Scientific Staff (Praedoc) at the Institute for Urban and Regional Research (ÖAW), Austria.
-14. [Julie Vallée](https://github.com/JulieVallee), Senior researcher at CNRS, LISST, France. 
+14. [Julie Vallée](https://github.com/JulieVallee), Senior researcher at CNRS, LISST, France.
 15. [Julien Migozzi](https://github.com/jmigozzi), Assistant Professor in Development Studies at University of Cambridge, UK.
 16. [Juta Kawalerowicz](https://github.com/jkawalerowicz), Lecturer at Stokholm University, Sweden.
-17. [Karina Trelles](https://github.com/ktrelles), Master student at University of Brescia, Italy.
+17. [Karina Trelles](https://github.com/ktrelles), PhD candidate at University of Trieste, Italy.
 18. [Nadeem Ullah](https://github.com/naddmm), Postdoctoral Researcher, School of Architecture, Tianjin University, China.
 19. [Onur Tumturk](https://github.com/onurtumturk), Marie Curie Postdoc, Bilkent University, Turkey.
 20. [Onyinyechi Gift Ossai](https://github.com/onyinyechi-ossai123), Senior Lecturer/University of Nigeria, Nsukka, Nigeria.
